@@ -1,27 +1,43 @@
 package questions;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class JavaQuestions {
     public static void main(String[] args) {
 
-// 1. Create a string array and find the longest element in the array.
+// 1. Create a string array and find the longest element/elements in the array.
 
-        String [] str = new String[]{"Hello", "World!", "You are nice", "Beautiful", "Awesome"};
-        str[4] = "Very very cleaver";
+        String [] str = new String[]{"Hello", "World!", "Nice", "Beautiful", "Awesome", "Questions"};
 
         int max= 0;
-        String longest = "";
+        List<String> list = new ArrayList<>();
+
         for(String w : str){
-            if(w.length()>=max){
+            if(w.length()>max){
                 max = w.length();
-                longest = w;
+                list.clear();
+                list.add(w);
+            } else if(w.length()==max){
+                list.add(w);
             }
         }
-        System.out.println("longest element is: " + longest);
+
+        System.out.println("longest element/elements: " );
+        for(String w : list){
+            System.out.println(w);
+        }
 
 
 
 // 2. Declare an integer variable and increment it by 10 using a shorthand operator.
+        int a = 45;
+        a += 10;
+        System.out.println(a);
+
+
 // 3. Write a Java program to check if an array contains a certain value.
+
 // 4. Create a List of Strings and add five names into it. Print the List using a forEach loop.
 // 5. Initialize an array of integers and calculate the sum of all its elements.
 // 6. Create a method that takes an array of integers and returns the maximum value.

@@ -37,6 +37,23 @@ public class JavaQuestions {
 
 
 // 3. Write a Java program to check if an array contains a certain value.
+        String str2[] = new String[]{"a", "b", "c", "d", "e"};
+        String certainValue = "f";
+        int count = 0;
+        for(String w : str2){
+            if(w.equals(certainValue)){
+                break;
+            } else {
+                count ++;
+            }
+        }
+
+        if(count<str2.length){
+            System.out.println("Array contains the certain value");
+        } else {
+            System.out.println("Array does not contain the certain value");
+        }
+
 
 // 4. Create a List of Strings and add five names into it. Print the List using a forEach loop.
 // 5. Initialize an array of integers and calculate the sum of all its elements.

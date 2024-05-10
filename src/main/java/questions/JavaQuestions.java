@@ -36,6 +36,8 @@ public class JavaQuestions {
         System.out.println(a);
 
 
+
+
 // 3. Write a Java program to check if an array contains a certain value.
         String str2[] = new String[]{"a", "b", "c", "d", "e"};
         String certainValue = "f";
@@ -56,6 +58,18 @@ public class JavaQuestions {
 
 
 // 4. Create a List of Strings and add five names into it. Print the List using a forEach loop.
+        List<String> str3 = new ArrayList<>();
+        str3.add("Ole");
+        str3.add("Nils");
+        str3.add("Martin");
+        str3.add("Marie");
+        str3.add("Elen");
+
+        for(String w: str3){
+            System.out.println(w);
+        }
+
+
 // 5. Initialize an array of integers and calculate the sum of all its elements.
 // 6. Create a method that takes an array of integers and returns the maximum value.
 // 7. Write a Java program to find the index of an element in an integer array.

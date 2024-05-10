@@ -71,6 +71,13 @@ public class JavaQuestions {
 
 
 // 5. Initialize an array of integers and calculate the sum of all its elements.
+        int nums[] = new int[]{1, 4, 6, 9, 12, 8};
+        int sum = 0;
+        for(int w: nums){
+            sum += w;
+        }
+
+        System.out.println("The sum is: " + sum);
 // 6. Create a method that takes an array of integers and returns the maximum value.
 // 7. Write a Java program to find the index of an element in an integer array.
 // 8. Declare and initialize a boolean variable. Use an if statement to print out "True" if true, otherwise print "False".

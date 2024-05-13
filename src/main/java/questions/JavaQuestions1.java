@@ -87,7 +87,7 @@ public class JavaQuestions1 {
 // 6. Create a method that takes an array of integers and returns the maximum value.
 
         int ab[] = new int[]{8,12,98,-8,75,3,81};
-        System.out.println(maxElementFromArray(ab));
+        System.out.println("max element of array" + maxElementFromArray(ab));
     }
 
     public static int maxElementFromArray(int[] arr){

@@ -3,7 +3,7 @@ package questions;
 import java.util.ArrayList;
 import java.util.List;
 
-public class JavaQuestions {
+public class JavaQuestions1 {
     public static void main(String[] args) {
 
 // 1. Create a string array and find the longest element/elements in the array.
@@ -78,7 +78,11 @@ public class JavaQuestions {
         }
 
         System.out.println("The sum is: " + sum);
+
+
+
 // 6. Create a method that takes an array of integers and returns the maximum value.
+
 // 7. Write a Java program to find the index of an element in an integer array.
 // 8. Declare and initialize a boolean variable. Use an if statement to print out "True" if true, otherwise print "False".
 // 9. Create a multidimensional array and access the second element of the first array.

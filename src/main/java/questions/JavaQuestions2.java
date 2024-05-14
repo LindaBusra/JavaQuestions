@@ -1,13 +1,18 @@
 package questions;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class JavaQuestions2 {
 
     public static void main(String[] args) {
 
-
-
-
-
+// 1. Create a string array and find the longest element/elements in the array.
+// 2. Declare an integer variable and increment it by 10 using a shorthand operator.
+// 3. Write a Java program to check if an array contains a certain value.
+// 4. Create a List of Strings and add five names into it. Print the List using a forEach loop.
+// 5. Initialize an array of integers and calculate the sum of all its elements.
+// 6. Create a method that takes an array of integers and returns the maximum value.
 // 7. Write a Java program to find the index of an element in an integer array.
 // 8. Declare and initialize a boolean variable. Use an if statement to print out "True" if true, otherwise print "False".
 // 9. Create a multidimensional array and access the second element of the first array.

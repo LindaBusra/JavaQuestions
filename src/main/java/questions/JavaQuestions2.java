@@ -5,6 +5,14 @@ public class JavaQuestions2 {
 
 // 7. Write a Java program to find the index of an element in an integer array.
 
+        int arr[] = new int[]{4,8,9,12,-6,5};
+        int element = 14;
+        int index = indexOfElementInArray(arr, element);
+        if(index == -1){
+            System.out.println(element + " does not exist in this array");
+        } else {
+            System.out.println("The index of " + element + " in the array: " + index);
+        }
 
 
 

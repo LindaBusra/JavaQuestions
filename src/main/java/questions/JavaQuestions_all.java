@@ -5,8 +5,8 @@ public class JavaQuestions_all {
     public static void main(String[] args) {
 
 
-// 7. Write a Java program to find the index of an element in an integer array.
-// 8. Declare and initialize a boolean variable. Use an if statement to print out "True" if true, otherwise print "False".
+
+
 // 9. Create a multidimensional array and access the second element of the first array.
 // 10. Write a Java program to reverse a string and print it.
 // 11. Create an ArrayList and remove the third element from the ArrayList.

@@ -15,8 +15,20 @@ public class JavaQuestions2 {
         }
 
 
+// 8. Declare and initialize a boolean variable. Use an if statement to print out "True" if true, otherwise print "False".
+        boolean isYoung = false;
+        if(isYoung){
+            System.out.println("True");
+        } else {
+            System.out.println("False");
+        }
+
 
     }
+
+
+
+
 
     public static int indexOfElementInArray(int[] arr, int x){
        for(int i=0; i<arr.length; i++){

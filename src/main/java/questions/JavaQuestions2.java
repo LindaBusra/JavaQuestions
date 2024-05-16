@@ -24,6 +24,8 @@ public class JavaQuestions2 {
         }
 
 
+// 9. Create a multidimensional array and access the second element of the first array.
+// 10. Write a Java program to reverse a string and print it.
     }
 
 

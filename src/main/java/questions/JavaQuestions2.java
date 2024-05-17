@@ -1,5 +1,7 @@
 package questions;
 
+import java.util.Arrays;
+
 public class JavaQuestions2 {
     public static void main(String[] args) {
 
@@ -25,7 +27,17 @@ public class JavaQuestions2 {
 
 
 // 9. Create a multidimensional array and access the second element of the first array.
+        int multiarr[][] = {{2,3}, {8,9}, {9,3}, {-6, 5}};
+        System.out.println(Arrays.deepToString(multiarr)); // Printing the whole array
+        int secondElementOfFirstArray = multiarr[0][1]; // Accessing the second element of the first array
+        System.out.println("Second element of the first array: " + secondElementOfFirstArray);
+
+
 // 10. Write a Java program to reverse a string and print it.
+        String text = "Hello World";
+        for(int i=text.length()-1; i>=0; i--){
+            System.out.print(text.charAt(i));
+        }
     }
 
 

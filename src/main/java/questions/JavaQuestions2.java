@@ -38,6 +38,15 @@ public class JavaQuestions2 {
         for(int i=text.length()-1; i>=0; i--){
             System.out.print(text.charAt(i));
         }
+        System.out.println("\n\n");
+
+
+        //2.way
+        String reversedText = "";
+        for (int i = text.length() - 1; i >= 0; i--) {
+            reversedText += text.substring(i, i + 1);
+        }
+        System.out.println(reversedText);
     }
 
 

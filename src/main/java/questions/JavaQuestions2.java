@@ -66,6 +66,10 @@ public class JavaQuestions2 {
 
 
 
+// 12. Write a method that checks if a string is a palindrome or not.
+
+
+
 
 
 

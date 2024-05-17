@@ -1,6 +1,8 @@
 package questions;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 public class JavaQuestions2 {
     public static void main(String[] args) {
@@ -47,6 +49,29 @@ public class JavaQuestions2 {
             reversedText += text.substring(i, i + 1);
         }
         System.out.println(reversedText);
+
+
+// 11. Create an ArrayList and remove the third element from the ArrayList.
+
+        List<String> list = new ArrayList<>();
+        list.add("selin");
+        list.add("ida");
+        list.add("ole");
+        list.add("mark");
+        list.add("nils");
+
+        System.out.println(list);
+        list.remove(2);
+        System.out.println("after remove: " + list);
+
+
+
+
+
+
+
+
+
     }
 
 

@@ -7,9 +7,6 @@ public class JavaQuestions_all {
 
 
 
-// 9. Create a multidimensional array and access the second element of the first array.
-// 10. Write a Java program to reverse a string and print it.
-// 11. Create an ArrayList and remove the third element from the ArrayList.
 // 12. Write a method that checks if a string is a palindrome or not.
 // 13. Initialize an array of doubles and find the average of the array elements.
 // 14. Create a List of integers and use a forEach loop to multiply each element by 2.

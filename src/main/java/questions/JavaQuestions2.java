@@ -72,6 +72,9 @@ public class JavaQuestions2 {
 
 // 13. Initialize an array of doubles and find the average of the array elements.
 
+        double doubleArr[] = {2.6, 5.4, 9.8, 5.6, 2.2};
+
+        System.out.println(findAverageOfArray(doubleArr));
 
 
 
@@ -81,6 +84,14 @@ public class JavaQuestions2 {
 
     }
 
+    public static double findAverageOfArray(double arr[]){
+        double sum = 0;
+        for(int i=0; i<arr.length; i++){
+            sum += arr[i];
+        }
+
+        return sum/arr.length;
+    }
     public static boolean isPalindrome(String text) {
 
         String resv = "";

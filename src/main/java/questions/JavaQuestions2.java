@@ -69,6 +69,16 @@ public class JavaQuestions2 {
 
         System.out.println(isPalindrome("radar"));
 
+
+// 13. Initialize an array of doubles and find the average of the array elements.
+
+
+
+
+
+
+
+
     }
 
     public static boolean isPalindrome(String text) {

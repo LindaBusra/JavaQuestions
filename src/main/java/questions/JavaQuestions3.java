@@ -1,5 +1,7 @@
 package questions;
 
+import java.util.HashMap;
+
 public class JavaQuestions3 {
     public static void main(String[] args) {
 
@@ -18,6 +20,17 @@ public class JavaQuestions3 {
         text = text.replaceAll("a", "e");
         System.out.println("new text: " + text);
 
+
+// 16. Create a HashMap to store the names of students and their corresponding grades.
+
+        HashMap<String, Double> list = new HashMap<>();
+        list.put("Ole", 5.9);
+        list.put("Nils", 2.8);
+        list.put("Mike", 5.8);
+        list.put("Juli", 5.3);
+        list.put("Jeny", 4.8);
+        System.out.println(list);
+        System.out.println(list.get("Ole"));
 
     }
 }

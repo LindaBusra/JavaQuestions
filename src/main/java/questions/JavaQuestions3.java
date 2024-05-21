@@ -10,5 +10,14 @@ public class JavaQuestions3 {
         for(int w : arr){
             System.out.println(w*2);
         }
+
+
+
+// 15. Write a Java program to replace all occurrences of 'a' with 'e' in a string.
+        String text = "Java program to replace all";
+        text = text.replaceAll("a", "e");
+        System.out.println("new text: " + text);
+
+
     }
 }

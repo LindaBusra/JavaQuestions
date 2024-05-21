@@ -8,7 +8,6 @@ public class JavaQuestions_all {
 
 
 
-// 13. Initialize an array of doubles and find the average of the array elements.
 // 14. Create a List of integers and use a forEach loop to multiply each element by 2.
 // 15. Write a Java program to replace all occurrences of 'a' with 'e' in a string.
 // 16. Create a HashMap to store the names of students and their corresponding grades.

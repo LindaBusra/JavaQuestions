@@ -76,12 +76,6 @@ public class JavaQuestions2 {
 
         System.out.println(findAverageOfArray(doubleArr));
 
-
-
-
-
-
-
     }
 
     public static double findAverageOfArray(double arr[]){

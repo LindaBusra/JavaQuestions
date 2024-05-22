@@ -32,5 +32,12 @@ public class JavaQuestions3 {
         System.out.println(list);
         System.out.println(list.get("Ole"));
 
+
+// 17. Write a program that prints the elements of an array in reverse order.
+        int mylist[] = new int[]{7, 9, 12, 4, 5, 8};
+        for(int i=mylist.length-1; i>=0; i--){
+            System.out.print(mylist[i] + " ");
+        }
+
     }
 }

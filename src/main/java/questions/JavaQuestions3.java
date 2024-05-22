@@ -47,5 +47,32 @@ public class JavaQuestions3 {
         str = spltarr[0].substring(0,1).toUpperCase() + spltarr[0].substring(1) + " " + spltarr[1].substring(0,1).toUpperCase() + spltarr[1].substring(1) ;
         System.out.println(str);
 
+
+// 19. Write a Java method that takes a string and returns the number of vowels in the string.
+        String mytext[] = str.split("");
+        int count = 0;
+
+        for(String w : mytext){
+            boolean isVowel = w.equals("a") || w.equals("e") || w.equals("i") || w.equals("o") || w.equals("u") || w.equals("y") || w.equals("æ") || w.equals("ø");
+            if(isVowel){
+                count++;
+            }
+        }
+        System.out.println("The number of vowels: " + count);
+
+
+
+
+
+
+
+
+
+
+
+
     }
+
+
+
 }

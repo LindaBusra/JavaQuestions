@@ -7,7 +7,7 @@ public class JavaQuestions_all {
 
 
 
-// 17. Write a program that prints the elements of an array in reverse order.
+
 // 18. Initialize a string with "hello world" and capitalize the first letter of each word.
 // 19. Write a Java method that takes a string and returns the number of vowels in the string.
 // 20. Create an integer variable, use a while loop to print it repeatedly, decrementing by 1 each time until it reaches 0.

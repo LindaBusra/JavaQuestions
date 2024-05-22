@@ -38,6 +38,14 @@ public class JavaQuestions3 {
         for(int i=mylist.length-1; i>=0; i--){
             System.out.print(mylist[i] + " ");
         }
+        System.out.println();
+
+
+// 18. Initialize a string with "hello world" and capitalize the first letter of each word.
+        String str = "Hello world";
+        String spltarr[] = str.split(" ");
+        str = spltarr[0].substring(0,1).toUpperCase() + spltarr[0].substring(1) + " " + spltarr[1].substring(0,1).toUpperCase() + spltarr[1].substring(1) ;
+        System.out.println(str);
 
     }
 }

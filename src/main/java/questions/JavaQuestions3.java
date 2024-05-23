@@ -61,7 +61,11 @@ public class JavaQuestions3 {
         System.out.println("The number of vowels: " + count);
 
 
-
+// 20. Create an integer variable, use a while loop to print it repeatedly, decrementing by 1 each time until it reaches 0.
+        int a = 7;
+        for(int i=a; i>=0; i--){
+            System.out.print(i + " ");
+        }
 
 
 
@@ -72,7 +76,4 @@ public class JavaQuestions3 {
 
 
     }
-
-
-
 }

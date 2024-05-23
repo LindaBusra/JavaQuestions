@@ -10,7 +10,7 @@ public class JavaQuestions_all {
 
 
 
-// 20. Create an integer variable, use a while loop to print it repeatedly, decrementing by 1 each time until it reaches 0.
+
 // 21. Write a method that takes an array of strings and sorts them in alphabetical order.
 // 22. Create a Java program that checks whether an integer is odd or even.
 // 23. Write a program using an if-else statement to print "Adult" if age is greater than 18, otherwise print "Child".

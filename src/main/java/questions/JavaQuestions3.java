@@ -1,5 +1,6 @@
 package questions;
 
+import java.util.Arrays;
 import java.util.HashMap;
 
 public class JavaQuestions3 {
@@ -66,8 +67,13 @@ public class JavaQuestions3 {
         for(int i=a; i>=0; i--){
             System.out.print(i + " ");
         }
+        System.out.println();
 
 
+// 21. Write a method that takes an array of strings and sorts them in alphabetical order.
+        String texts[] = new String[]{"Ole", "Jenny", "Mike", "James", "Elisabeth"};
+        Arrays.sort(texts);
+        System.out.println(Arrays.toString(texts));
 
 
 

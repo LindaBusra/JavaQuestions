@@ -11,8 +11,8 @@ public class JavaQuestions_all {
 
 
 
-// 21. Write a method that takes an array of strings and sorts them in alphabetical order.
-// 22. Create a Java program that checks whether an integer is odd or even.
+
+
 // 23. Write a program using an if-else statement to print "Adult" if age is greater than 18, otherwise print "Child".
 // 24. Initialize a List of Strings with duplicate values. Write a method to remove duplicates from the List.
 // 25. Write a for loop to print even numbers from 1 to 50.

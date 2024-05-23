@@ -76,7 +76,13 @@ public class JavaQuestions3 {
         System.out.println(Arrays.toString(texts));
 
 
-
+// 22. Create a Java program that checks whether an integer is odd or even.
+        int b = 13;
+        if(b%2==0){
+            System.out.println(b + " is even");
+        } else {
+            System.out.println(b + " is odd");
+        }
 
 
 

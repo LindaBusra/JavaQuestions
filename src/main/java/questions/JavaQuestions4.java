@@ -33,6 +33,12 @@ public class JavaQuestions4 {
         System.out.println(newList);
 
 // 25. Write a for loop to print even numbers from 1 to 50.
+        for(int i =1; i<51; i++){
+            if(i%2==0){
+                System.out.print(i + " ");
+            }
+        }
+        System.out.println();
 // 26. Create a method that takes two parameters: an array of integers and a number. The method should print whether the number is found in the array or not.
 // 27. Write a Java program that calculates the factorial of a number using recursion.
 // 28. Declare an array of integers and find the smallest number in the array.

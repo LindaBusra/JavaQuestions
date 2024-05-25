@@ -1,5 +1,8 @@
 package questions;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class JavaQuestions4 {
     public static void main(String[] args) {
 
@@ -12,6 +15,23 @@ public class JavaQuestions4 {
             System.out.println("Child");
         }
 // 24. Initialize a List of Strings with duplicate values. Write a method to remove duplicates from the List.
+        List<String> list = new ArrayList<>();
+        list.add("Ole");
+        list.add("Mark");
+        list.add("Ole");
+        list.add("Jenny");
+        list.add("Nils");
+        list.add("Jake");
+        list.add("Jenny");
+
+        List<String> newList = new ArrayList<>();
+        for(String w : list){
+            if(!newList.contains(w)){
+                newList.add(w);
+            }
+        }
+        System.out.println(newList);
+
 // 25. Write a for loop to print even numbers from 1 to 50.
 // 26. Create a method that takes two parameters: an array of integers and a number. The method should print whether the number is found in the array or not.
 // 27. Write a Java program that calculates the factorial of a number using recursion.

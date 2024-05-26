@@ -47,6 +47,10 @@ public class JavaQuestions4 {
 
 
 // 27. Write a Java program that calculates the factorial of a number using recursion.
+        int number = 5; // You can change this number to calculate a different factorial
+        long result = factorial(number);
+        System.out.println("Factorial of " + number + " is " + result);
+
 // 28. Declare an array of integers and find the smallest number in the array.
 // 29. Create a method that takes a string and returns the number of times the character 'a' appears in the string.
 // 30. Write a Java program that takes a string input from the user and prints it back in upper case.
@@ -68,4 +72,16 @@ public class JavaQuestions4 {
         }
         return flag;
     }
+
+
+    public static long factorial(int n) {
+        if (n == 0) {
+            return 1;
+        }
+        // Recursive case: n! = n * (n-1)!
+        else {
+            return n * factorial(n - 1);
+        }
+    }
+
 }

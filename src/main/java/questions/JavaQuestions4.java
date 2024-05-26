@@ -39,7 +39,13 @@ public class JavaQuestions4 {
             }
         }
         System.out.println();
+
 // 26. Create a method that takes two parameters: an array of integers and a number. The method should print whether the number is found in the array or not.
+        int arr[] = new int[]{1,5,9,12,45,76,87};
+        boolean isInTheArray = isInTheArray(arr, 12);
+        System.out.println(isInTheArray);
+
+
 // 27. Write a Java program that calculates the factorial of a number using recursion.
 // 28. Declare an array of integers and find the smallest number in the array.
 // 29. Create a method that takes a string and returns the number of times the character 'a' appears in the string.
@@ -51,5 +57,15 @@ public class JavaQuestions4 {
 
 
 
+    }
+    public static boolean isInTheArray(int arr[], int x){
+        boolean flag = false;
+        for(int w: arr){
+            if(w==x){
+                flag = true;
+                break;
+            }
+        }
+        return flag;
     }
 }

@@ -51,7 +51,18 @@ public class JavaQuestions4 {
         long result = factorial(number);
         System.out.println("Factorial of " + number + " is " + result);
 
+
+
 // 28. Declare an array of integers and find the smallest number in the array.
+        int num[] = new int[]{7, 3, 45, 21, 4, 56, 4};
+        int min = Integer.MAX_VALUE;
+
+        for(int w : num){
+            if(w<min){
+                min = w;
+            }
+        }
+        System.out.println("the min value in the array; " + min);
 // 29. Create a method that takes a string and returns the number of times the character 'a' appears in the string.
 // 30. Write a Java program that takes a string input from the user and prints it back in upper case.
 

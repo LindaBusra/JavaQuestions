@@ -63,7 +63,15 @@ public class JavaQuestions4 {
             }
         }
         System.out.println("the min value in the array; " + min);
+
+
 // 29. Create a method that takes a string and returns the number of times the character 'a' appears in the string.
+        System.out.println(howManyTimes("Character", "a"));
+        String word = "Program";   String expected = "a";
+        System.out.println(howManyTimes(word, expected));
+
+
+
 // 30. Write a Java program that takes a string input from the user and prints it back in upper case.
 
 
@@ -72,6 +80,17 @@ public class JavaQuestions4 {
 
 
 
+    }
+
+    public static int howManyTimes(String x, String a){
+        int count = 0;
+        String arr[] = x.split("");
+        for(int i=0; i<arr.length; i++){
+            if(arr[i].equals(a)){
+                count++;
+            }
+        }
+        return count;
     }
     public static boolean isInTheArray(int arr[], int x){
         boolean flag = false;

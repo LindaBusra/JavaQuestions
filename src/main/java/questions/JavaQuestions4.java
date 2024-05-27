@@ -77,10 +77,6 @@ public class JavaQuestions4 {
         System.out.println(reverseToUpperCase(forReverse));
 
 
-
-
-
-
     }
 
     public static String reverseToUpperCase(String str){

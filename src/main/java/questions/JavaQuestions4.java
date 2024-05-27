@@ -73,13 +73,24 @@ public class JavaQuestions4 {
 
 
 // 30. Write a Java program that takes a string input from the user and prints it back in upper case.
+        String forReverse = "Character";
+        System.out.println(reverseToUpperCase(forReverse));
 
 
 
 
 
 
+    }
 
+    public static String reverseToUpperCase(String str){
+
+        String arr[] = str.split("");
+        String newText = "";
+        for(int i=arr.length-1; i>=0; i--){
+            newText += arr[i].toUpperCase();
+        }
+        return newText;
     }
 
     public static int howManyTimes(String x, String a){

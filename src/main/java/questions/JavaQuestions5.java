@@ -31,7 +31,12 @@ public class JavaQuestions5 {
                 System.out.println("Enter a valid day please");
         }
 
+
+
 // 33. Write a program that takes a List of integers and finds the second largest number in the List.
+        int nums[] = new int[]{7, 8, 5, 14, 9, 2, 3,21 };
+        Arrays.sort(nums);
+        System.out.println(nums[nums.length-2]);
 // 34. Declare a boolean array and use a loop to set all its elements to true.
 // 35. Write a Java program that prints the Fibonacci sequence up to a given number.
 

@@ -15,16 +15,16 @@ public class JavaQuestions5 {
 
 // 32. Create a switch-case statement that prints "Working Day" for weekdays and "Holiday" for weekends.
         String day = "Monday";
-        switch (day){
-            case "Monday":
-            case "Tuesday":
-            case "Wednesday":
-            case "Thursday":
-            case "Friday":
+        switch (day.toLowerCase()){
+            case "monday":
+            case "tuesday":
+            case "wednesday":
+            case "thursday":
+            case "friday":
                 System.out.println("Working Day");
                 break;
-            case "Saturday":
-            case "Sunday":
+            case "saturday":
+            case "sunday":
                 System.out.println("Holiday");
                 break;
             default:

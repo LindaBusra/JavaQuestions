@@ -14,6 +14,23 @@ public class JavaQuestions5 {
 
 
 // 32. Create a switch-case statement that prints "Working Day" for weekdays and "Holiday" for weekends.
+        String day = "Monday";
+        switch (day){
+            case "Monday":
+            case "Tuesday":
+            case "Wednesday":
+            case "Thursday":
+            case "Friday":
+                System.out.println("Working Day");
+                break;
+            case "Saturday":
+            case "Sunday":
+                System.out.println("Holiday");
+                break;
+            default:
+                System.out.println("Enter a valid day please");
+        }
+
 // 33. Write a program that takes a List of integers and finds the second largest number in the List.
 // 34. Declare a boolean array and use a loop to set all its elements to true.
 // 35. Write a Java program that prints the Fibonacci sequence up to a given number.

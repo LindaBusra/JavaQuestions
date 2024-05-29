@@ -37,7 +37,19 @@ public class JavaQuestions5 {
         int nums[] = new int[]{7, 8, 5, 14, 9, 2, 3,21 };
         Arrays.sort(nums);
         System.out.println(nums[nums.length-2]);
+
+        
 // 34. Declare a boolean array and use a loop to set all its elements to true.
+        int n = 5;
+        boolean newArr[] = new boolean[n];
+
+        for(int i=0; i<n; i++){
+            newArr[i] = true;
+        }
+
+        System.out.println(Arrays.toString(newArr));
+
+
 // 35. Write a Java program that prints the Fibonacci sequence up to a given number.
 
 

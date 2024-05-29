@@ -52,20 +52,19 @@ public class JavaQuestions5 {
 
 
 // 35. Write a Java program that prints the Fibonacci sequence up to a given number.
-        // Set the maximum number for the Fibonacci sequence
-        int maxNumber = 50;  // You can adjust this value to control the range
 
-        // Print Fibonacci sequence up to maxNumber
+        int maxNumber = 50;
+
         int a = 0;  // First number of the sequence
         int b = 1;  // Second number of the sequence
-        System.out.print("Fibonacci Sequence up to " + maxNumber + ": " + a + " " + b);
+        System.out.print("Fibonacci: " + a + " " + b);
 
         // Generate the next numbers in the sequence
         int next = a + b;
         while (next <= maxNumber) {
             System.out.print(" " + next);
-            a = b;  // Move to the next number in the sequence
-            b = next;  // Move to the next number in the sequence
+            a = b;
+            b = next;
             next = a + b;  // Sum of the last two numbers
         }
 

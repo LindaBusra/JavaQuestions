@@ -12,7 +12,7 @@ public class JavaQuestions6 {
 
 // 37. Write a method that takes two integers and returns the sum, difference, and product as a List of integers.
 
-
+    sumDiffrenceProdukt(7, 9);
 
 
     }
@@ -26,5 +26,11 @@ public class JavaQuestions6 {
             index++;
         }
         System.out.println(Arrays.toString(temp));
+    }
+
+    public static void sumDiffrenceProdukt(int a, int b){
+        System.out.println("sum: " + (a+b));
+        System.out.println("difference: " + Math.abs(a-b));
+        System.out.println("product: " + (a*b));
     }
 }

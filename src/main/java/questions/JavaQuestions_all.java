@@ -39,9 +39,6 @@ public class JavaQuestions_all {
 // 28. Declare an array of integers and find the smallest number in the array.
 // 29. Create a method that takes a string and returns the number of times the character 'a' appears in the string.
 // 30. Write a Java program that takes a string input from the user and prints it back in upper case.
-
-
-
 // 31. Initialize an array with several numbers. Write a method that returns the array sorted in descending order.
 // 32. Create a switch-case statement that prints "Working Day" for weekdays and "Holiday" for weekends.
 // 33. Write a program that takes a List of integers and finds the second largest number in the List.

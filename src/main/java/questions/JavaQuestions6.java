@@ -1,6 +1,8 @@
 package questions;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 public class JavaQuestions6 {
     public static void main(String[] args) {
@@ -33,7 +35,30 @@ public class JavaQuestions6 {
 
 
 // 40. Create a List of doubles and find the maximum and minimum values in the List.
+        List<Double> list =  new ArrayList<>();
+        list.add(5.6);
+        list.add(2.6);
+        list.add(3.4);
+        list.add(1.8);
+        list.add(9.3);
+        list.add(5.1);
+        list.add(8.5);
 
+        double min = list.get(0);
+        double max = list.get(0);
+
+        for(double w : list){
+            if(w>max){
+                max = w;
+            }
+
+            if(w<min){
+                min = w;
+            }
+        }
+
+        System.out.println("max: " + max);
+        System.out.println("min; " + min);
     }
 
     public static void reverseArray(int[] arr){

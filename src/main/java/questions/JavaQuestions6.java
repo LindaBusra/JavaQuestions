@@ -15,6 +15,18 @@ public class JavaQuestions6 {
     sumDiffrenceProdukt(7, 9);
 
 
+
+// 38. Initialize a string with "Java Programming". Use a substring method to print "Programming".
+        String text = "Java Programming";
+        System.out.println(text.substring(5));
+
+
+// 39. Write a program that uses nested loops to print a rectangle using '*' of size 5x10.
+
+
+
+// 40. Create a List of doubles and find the maximum and minimum values in the List.
+
     }
 
     public static void reverseArray(int[] arr){

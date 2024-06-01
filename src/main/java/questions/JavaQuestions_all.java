@@ -44,10 +44,10 @@ public class JavaQuestions_all {
 // 33. Write a program that takes a List of integers and finds the second largest number in the List.
 // 34. Declare a boolean array and use a loop to set all its elements to true.
 // 35. Write a Java program that prints the Fibonacci sequence up to a given number.
-
-
 // 36. Create a method that accepts an ArrayList of integers and reverses its elements.
 // 37. Write a method that takes two integers and returns the sum, difference, and product as a List of integers.
+
+
 // 38. Initialize a string with "Java Programming". Use a substring method to print "Programming".
 // 39. Write a program that uses nested loops to print a rectangle using '*' of size 5x10.
 // 40. Create a List of doubles and find the maximum and minimum values in the List.

@@ -2,7 +2,9 @@ package questions;
 
 import java.sql.SQLOutput;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
+import java.util.Scanner;
 
 public class JavaQuestions7 {
     public static void main(String[] args) {
@@ -27,6 +29,20 @@ public class JavaQuestions7 {
 
 
 // 43. Write a Java program that asks the user for 5 numbers, stores them in an array, and prints the highest number.
+        int numbers[] = new int[5];
+        Scanner scanner = new Scanner(System.in);
+        for(int i=0; i<5; i++) {
+            System.out.println("Enter "+(i+1)+". number please: ");
+            numbers[i] = scanner.nextInt();
+        }
+        System.out.println("The numbers : " + Arrays.toString(numbers));
+        int max = Integer.MIN_VALUE;
+        for(int w : numbers){
+            if(w>max){
+                max=w;
+            }
+        }
+        System.out.println("The max number from array : " + max);
 
 
 

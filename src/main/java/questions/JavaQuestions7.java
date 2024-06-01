@@ -20,6 +20,12 @@ public class JavaQuestions7 {
 
 
 // 42. Create an integer array. Use a for-each loop to print each element.
+        int arr[] = new int[]{1,5,6,8,7,9,10,12};
+        for(int w: arr){
+            System.out.println(w);
+        }
+
+
 // 43. Write a Java program that asks the user for 5 numbers, stores them in an array, and prints the highest number.
 
 

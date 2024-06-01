@@ -23,6 +23,13 @@ public class JavaQuestions6 {
 
 // 39. Write a program that uses nested loops to print a rectangle using '*' of size 5x10.
 
+        for(int i=0; i<5; i++) {
+
+            for(int j=0; j<10; j++){
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
 
 
 // 40. Create a List of doubles and find the maximum and minimum values in the List.

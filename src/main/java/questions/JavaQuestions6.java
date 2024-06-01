@@ -59,6 +59,24 @@ public class JavaQuestions6 {
 
         System.out.println("max: " + max);
         System.out.println("min; " + min);
+
+
+        //or
+        double minimum = Double.MAX_VALUE;
+        double maximum = Double.MIN_VALUE;
+
+        for(double w : list){
+            if(w> maximum){
+                maximum = w;
+            }
+
+            if(w< minimum){
+                minimum = w;
+            }
+        }
+        System.out.println("max: " + maximum);
+        System.out.println("min; " + minimum);
+
     }
 
     public static void reverseArray(int[] arr){

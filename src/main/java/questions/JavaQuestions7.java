@@ -60,6 +60,14 @@ public class JavaQuestions7 {
 
 
 // 45. Write a method that takes an integer array and returns a new array with each element
+        int nums[] = new int[]{7,8,9,7,3,5};
+
+        int newArr[] = new int[1];
+        System.out.println("Returns a new array with each element:");
+        for(int w : nums){
+            newArr[0] =w;
+            System.out.println(Arrays.toString(newArr));
+        }
 
 
 

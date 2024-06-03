@@ -73,6 +73,12 @@ public class JavaQuestions7 {
 
 // 46. Write a Java program that prints all prime numbers between 1 and 100.
 
+        System.out.println("all prime numbers between 1 and 100:");
+
+
+
+
+
 
 
 
@@ -80,6 +86,7 @@ public class JavaQuestions7 {
 
 
     }
+
 
     public static boolean isContains(List<String> list, String a){
         boolean flag = false;

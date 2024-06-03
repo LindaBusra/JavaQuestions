@@ -49,8 +49,6 @@ public class JavaQuestions_all {
 // 38. Initialize a string with "Java Programming". Use a substring method to print "Programming".
 // 39. Write a program that uses nested loops to print a rectangle using '*' of size 5x10.
 // 40. Create a List of doubles and find the maximum and minimum values in the List.
-
-
 // 41. Write a method that takes a List of strings and a string to search for, and returns true if the string exists in the List.
 // 42. Create an integer array. Use a for-each loop to print each element.
 // 43. Write a Java program that asks the user for 5 numbers, stores them in an array, and prints the highest number.

@@ -45,6 +45,31 @@ public class JavaQuestions7 {
         System.out.println("The max number from array : " + max);
 
 
+// 44. Declare a two-dimensional array of integers and initialize it with values. Print the diagonals of the array.
+        // 3x3 from left to rigt [0][0], [1][1], ve [2][2]   and from right to left [0][2], [1][1], ve [2][0]
+        int[][] multarr = { {1, 2, 3}, {4, 5, 6}, {7, 8, 9} };
+        System.out.println("Print the diagonals of the array from left to right");
+        for(int i=0; i<multarr.length; i++){
+            System.out.println(multarr[i][i]+ " ");
+        }
+
+        System.out.println("Print the diagonals of the array from right to left");
+        for(int i=0; i<multarr.length; i++){
+            System.out.println(multarr[i][multarr.length-1-i ] + " ");
+        }
+
+
+// 45. Write a method that takes an integer array and returns a new array with each element
+
+
+
+// 46. Write a Java program that prints all prime numbers between 1 and 100.
+
+
+
+
+
+
 
     }
 

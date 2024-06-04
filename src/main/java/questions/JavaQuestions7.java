@@ -75,7 +75,20 @@ public class JavaQuestions7 {
 
         System.out.println("all prime numbers between 1 and 100:");
 
+    for(int num=2; num<101; num++) {
 
+        boolean isPrime = true;
+
+        for (int i = 2; i < num; i++) {
+            if (num % i == 0) {
+                isPrime = false;
+                break;
+            }
+        }
+        if (isPrime) {
+            System.out.println(num);
+        }
+    }
 
 
 

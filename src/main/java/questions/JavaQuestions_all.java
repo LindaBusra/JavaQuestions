@@ -52,13 +52,11 @@ public class JavaQuestions_all {
 // 41. Write a method that takes a List of strings and a string to search for, and returns true if the string exists in the List.
 // 42. Create an integer array. Use a for-each loop to print each element.
 // 43. Write a Java program that asks the user for 5 numbers, stores them in an array, and prints the highest number.
-
-
-
-
 // 44. Declare a two-dimensional array of integers and initialize it with values. Print the diagonals of the array.
 // 45. Write a method that takes an integer array and returns a new array with each element
 // 46. Write a Java program that prints all prime numbers between 1 and 100.
+
+
 // 47. Create a method that takes a List of integers and returns it with all duplicates removed.
 // 48. Initialize a String array with some values and use a loop to print each element.
 // 49. Write a program using a switch statement that prints the name of the month based on the number input (1 to 12).

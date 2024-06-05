@@ -69,6 +69,16 @@ public class JavaQuestions8 {
                 break;
         }
 
+// 50. Create a two-dimensional integer array and print the sum of each row in separate lines.
+        int mlt[][] = {{1,2,3}, {4,5,6}, {7,8,9}};
+
+        for(int i=0; i<mlt.length; i++){
+            int sum = 0;
+            for(int j=0; j<mlt[i].length; j++){
+                sum += mlt[i][j];
+            }
+            System.out.println("the sum of " + (i+1) + ". row: " + sum);
+        }
 
 
 

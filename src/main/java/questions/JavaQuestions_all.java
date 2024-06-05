@@ -60,6 +60,8 @@ public class JavaQuestions_all {
 // 47. Create a method that takes a List of integers and returns it with all duplicates removed.
 // 48. Initialize a String array with some values and use a loop to print each element.
 // 49. Write a program using a switch statement that prints the name of the month based on the number input (1 to 12).
+
+
 // 50. Create a two-dimensional integer array and print the sum of each row in separate lines.
 // 51. Write a Java method that takes an array of integers and shifts each element to the right by one position.
 // 52. Declare a float variable with a value and print it rounded to two decimal places.

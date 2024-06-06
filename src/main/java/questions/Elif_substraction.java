@@ -23,7 +23,7 @@ public class Elif_substraction {
             }
 
             int sonuc = sayi1 - sayi2;
-            System.out.println("Elifcim Soru-" + i + " : " + sayi1 + " - " + sayi2 + " = ?");
+            System.out.println("Ada Elif icin soru-" + i + " : " + sayi1 + " - " + sayi2 + " = ?");
 
             while (true) {
                 try {

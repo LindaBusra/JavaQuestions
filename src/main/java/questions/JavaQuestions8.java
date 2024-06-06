@@ -81,6 +81,7 @@ public class JavaQuestions8 {
         }
 
 
+// 51. Write a Java program that allows a user to enter their favorite movies and stores them in a HashMap with the user's rating for each movie.
 
 
 

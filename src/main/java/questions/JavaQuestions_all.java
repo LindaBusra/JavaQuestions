@@ -60,10 +60,10 @@ public class JavaQuestions_all {
 // 47. Create a method that takes a List of integers and returns it with all duplicates removed.
 // 48. Initialize a String array with some values and use a loop to print each element.
 // 49. Write a program using a switch statement that prints the name of the month based on the number input (1 to 12).
-
-
 // 50. Create a two-dimensional integer array and print the sum of each row in separate lines.
-// 51. Write a Java method that takes an array of integers and shifts each element to the right by one position.
+// 51. Write a Java program that allows a user to enter their favorite movies and stores them in a HashMap with the user's rating for each movie.
+
+
 // 52. Declare a float variable with a value and print it rounded to two decimal places.
 // 53. Create an ArrayList of Strings. Add some colors (as string elements) and then use a loop to print each color.
 // 54. Write a program that takes a string input and prints the number of words in the string.
@@ -603,124 +603,6 @@ public class JavaQuestions_all {
 // 576. Write a method that updates the value of a specific key in a HashMap if it exists, or adds the key with a default value if it does not exist.
 // 577. Use an ArrayList to collect and print user inputs until the user decides to quit.
 // 578. Develop a program that stores unique words from a text input by the user into a LinkedList and prints them in alphabetical order.
-// 579. Write a Java program that allows a user to enter their favorite movies and stores them in a HashMap with the user's rating for each movie.
-// 580. Write a Java program that prints the current version of the Java Runtime Environment.
-// 581. Create a method that takes two BigIntegers and calculates their gcd.
-// 582. Develop a program that calculates the result of 17 raised to the power of 6 using BigInteger.
-// 583. Write a Java program that compares two BigDecimal objects and prints which one is larger or if they are equal.
-// 584. Create a method that calculates the square root of a BigDecimal with a precision of 2 decimal places.
-// 585. Use BigDecimal to calculate and print the area of a circle given a radius with high precision.
-// 586. Develop a method that returns a BigInteger factorial of a given number.
-// 587. Write a program that demonstrates the use of RoundingMode in BigDecimal calculations.
-// 588. Create a Java program that uses BigDecimal to convert a currency from euros to dollars based on a given exchange rate.
-// 589. Develop a method that takes a BigDecimal representing annual interest rate, compounds it monthly, and returns the effective annual rate.
-// 590. Write a program that uses BigInteger to check if a number is likely prime or not.
-// 591. Create a method that takes two BigDecimal values, divides one by the other, and handles any ArithmeticException by returning zero.
-// 592. Use BigDecimal to perform financial calculations for loan repayments over time with precise decimal management.
-// 593. Write a Java program that rounds a BigDecimal to the nearest whole number using HALF_UP rounding mode.
-// 594. Develop a method that calculates the hypotenuse of a right triangle using BigDecimal.
-// 595. Create a program that reads an integer and prints its binary, octal, and hexadecimal representations using BigInteger.
-// 596. Write a method that simulates the rolling of a very large number of dice using BigInteger to count occurrences.
-// 597. Use BigDecimal to compute the result of an exponential function with a high degree of accuracy.
-// 598. Develop a Java program that calculates the future value of an investment using BigDecimal to handle compound interest.
-// 599. Write a program that uses BigInteger to sum the values stored in an array of integers.
-// 600. Create a method that converts a string representation of a decimal number into a formatted BigDecimal with commas separating thousands.
-// 601. Develop a program to calculate and compare the performance time of using long vs BigInteger for factorial calculations.
-// 602. Write a Java method that returns a BigDecimal representing the average of a collection of BigDecimal values.
-// 603. Use BigInteger to find the least common multiple (LCM) of two large integers.
-// 604. Develop a method that takes a BigInteger as input, increments it by one, and returns the result.
-// 605. Create a Java program that efficiently multiplies a series of BigDecimal values stored in an array.
-// 606. Write a program that reads a large number from the user and checks if it is a prime number using BigInteger.
-// 607. Develop a method that uses BigDecimal to calculate and return the annual to monthly interest rate conversion.
-// 608. Create a Java program that demonstrates different methods of the Math class, like max, min, abs, and floor.
-// 609. Write a method that calculates and returns the standard deviation of an array of BigDecimal values.
-// 610. Use BigInteger to calculate the number of combinations (n choose k) for given n and k.
-// 611. Develop a program that uses BigDecimal to show the effect of different rounding modes on a set of decimal division operations.
-// 612. Write a Java program that calculates the mean of an array of integers using BigInteger to handle very large sums.
-// 613. Create a method that finds the next probable prime number after a given BigInteger.
-// 614. Use BigDecimal to determine the precise result of dividing 1 by 3 up to 100 decimal places.
-// 615. Develop a Java program that converts a BigInteger to a binary string without using the built-in toString method.
-// 616. Write a method that takes an array of BigIntegers, sorts them, and returns the sorted array.
-// 617. Create a program that uses BigDecimal to calculate the monthly payments for a car loan, given the principal amount, interest rate, and term.
-// 618. Develop a method that uses BigInteger to efficiently compute powers of integers.
-// 619. Write a Java program that demonstrates the immutable nature of BigDecimal and BigInteger objects.
-// 620. Use BigDecimal to model the probability calculations in a Monte Carlo simulation with high precision.
-// 621. Develop a method that calculates the cubic root of a BigDecimal value with a precision of 5 decimal places.
-// 622. Write a program that uses BigInteger to manage a sequence of Fibonacci numbers larger than what can be stored in a long.
-// 623. Create a Java program that uses BigDecimal to compare financial transactions and detect discrepancies down to the cent.
-// 624. Develop a method that takes a BigDecimal representing an angle in degrees and calculates its sine using a high-precision algorithm.
-// 625. Write a program that uses BigInteger to calculate and print the first 1000 prime numbers.
-// 626. Use BigDecimal and BigInteger to create a simple calculator that can handle very large numbers and precise decimal operations.
-// 627. Develop a Java program that calculates the surface area and volume of a sphere given the radius using BigDecimal for precision.
-// 628. Create a method that checks whether a BigInteger value is even or odd without using any built-in methods.
-// 629. Write a program that uses BigDecimal to calculate the continuously compounded interest for an investment.
-// 630. Develop a method that takes an array of BigDecimal representing different currencies and converts each to a target currency based on provided exchange rates.
-// 631. Use BigInteger to perform a factorial calculation of numbers as large as 100,000 and time the computation.
-// 632. Write a Java program that finds the exact value of 2 to the power of 1000 using BigInteger.
-// 633. Create a method that uses BigDecimal to model the rounding errors that occur in floating-point arithmetic and demonstrate how to avoid them.
-// 634. Develop a Java program that illustrates the precision difference between double and BigDecimal by calculating a series of mathematical operations.
-// 635. Write a method that takes two BigIntegers representing a range and generates a random BigInteger within this range.
-// 636. Use BigDecimal to simulate complex financial scenarios involving precise calculations of interest rates, amortizations, and balloon payments.
-// 637. Develop a program that calculates the exact result of a complex polynomial equation using BigInteger for coefficients.
-// 638. Write a Java program that uses the compareTo method of BigDecimal to sort a list of decimal numbers.
-// 639. Create a method that calculates the precise value of e (Euler's number) using BigDecimal.
-// 640. Use BigInteger to determine if two numbers are co-prime (i.e., their gcd is 1).
-// 641. Develop a Java program that uses BigDecimal to simulate the calculation of planetary weights based on different gravitational forces.
-// 642. Write a method that uses BigDecimal to accurately convert angle measures from degrees to radians.
-// 643. Create a program that uses BigInteger to calculate and display a series of large prime numbers using the nextProbablePrime method.
-// 644. Develop a method that takes a BigDecimal as an annual interest rate, compounds it quarterly, and returns the total interest accrued after a given number of years.
-// 645. Write a Java program that uses BigInteger to calculate the lcm of two large numbers.
-// 646. Use BigDecimal to calculate and print the result of dividing two specified numbers with precision up to 30 decimal places.
-// 647. Develop a method that uses BigDecimal to calculate the average of a collection of financial transactions to ensure precise monetary calculations.
-// 648. Write a program that uses BigInteger to handle cryptographic calculations that involve very large prime numbers.
-// 649. Create a method that uses BigDecimal to demonstrate the difference in outcomes when rounding up vs. rounding down in financial applications.
-// 650. Develop a Java program that uses BigDecimal to manage exact calculations in scientific experiments involving measurements with very small error margins.
-// 651. Write a method that takes a BigInteger and returns a boolean indicating whether it is a perfect square.
-// 652. Use BigDecimal to create a program that can calculate the area of irregular shapes with curved edges by integrating small segments precisely.
-// 653. Develop a method that uses BigInteger to handle calculations in a high-performance computing scenario involving large data sets.
-// 654. Write a Java program that demonstrates the immutability of BigDecimal and BigInteger by attempting to modify them in various ways.
-// 655. Create a method that uses BigDecimal to simulate the precise tracking of resources in a complex system over time.
-// 656. Use BigInteger to solve problems in number theory, such as finding large prime numbers for use in cryptography.
-// 657. Develop a program that takes a BigDecimal as input representing an amount of money and calculates how many coins of different denominations are needed to make that amount.
-// 658. Write a method that uses BigDecimal to calculate and return the compound interest accrued on an investment over a period of time with monthly contributions.
-// 659. Create a Java program that uses BigInteger to implement an algorithm for large integer calculations in quantum computing simulations.
-// 660. Develop a method that compares two BigDecimal objects and explains the importance of the scale in comparisons.
-// 661. Write a program that uses BigInteger to efficiently calculate the binomial coefficient (n choose k) for large values of n and k.
-// 662. Use BigDecimal to develop a financial planning tool that calculates the future value of regular savings and investments with precise accuracy.
-// 663. Create a method that takes a BigDecimal representing a temperature in Celsius and converts it to Fahrenheit using precise calculations.
-// 664. Write a Java program that demonstrates how to handle very small probabilities in simulations using BigDecimal for accuracy.
-// 665. Develop a program that uses BigInteger to calculate the sum of all Fibonacci numbers up to the 1000th term.
-// 666. Use BigDecimal to model and calculate the decay of radioactive materials over time with high precision for scientific research.
-// 667. Write a method that takes a BigDecimal representing the current market price of gold and calculates the value of a collection of items made from gold.
-// 668. Develop a Java program that uses BigInteger to simulate the generation and management of large random numbers in a secure environment.
-// 669. Create a method that uses BigDecimal to calculate the precise cost of goods sold in a business scenario involving large transactions.
-// 670. Use BigDecimal to create a detailed and accurate financial report that includes earnings, expenses, and net profits over multiple quarters.
-// 671. Write a program that uses BigInteger to perform discrete logarithm calculations for cryptographic applications.
-// 672. Develop a method that uses BigDecimal to calculate the gravitational force between two objects given their masses and the distance between them.
-// 673. Create a Java program that demonstrates the use of BigDecimal in managing high-precision timer values in software profiling.
-// 674. Write a method that takes a BigInteger representing a population size and calculates various demographic statistics.
-// 675. Use BigDecimal to simulate economic models that require precise calculations of inflation, interest rates, and currency exchange rates.
-// 676. Develop a program that uses BigInteger to analyze very large datasets in computational biology, such as DNA sequence analysis.
-// 677. Write a Java program that uses BigDecimal to ensure precise calculations in the development of pharmaceutical dosages based on body weight and other factors.
-// 678. Create a method that uses BigInteger to calculate the number of ways objects can be arranged in large combinatorial problems.
-// 679. Use BigDecimal to calculate and display the precise timing needed for components in a high-speed computing system.
-// 680. Develop a method that takes a BigDecimal representing an annual percentage yield and calculates the equivalent interest rate for different compounding periods.
-// 681. Write a Java program that uses BigInteger to solve advanced mathematical problems in theoretical physics.
-// 682. Create a method that takes two BigDecimal values representing the lengths of sides of a right triangle and calculates the length of the hypotenuse.
-// 683. Use BigDecimal to develop a system for managing and reporting on large financial transactions in multinational corporations.
-// 684. Write a program that uses BigInteger to model the population growth of different species in an ecological study.
-// 685. Develop a method that uses BigDecimal to calculate the kinetic energy of moving objects in physics simulations with high accuracy.
-// 686. Create a Java program that uses BigInteger to determine the prime factors of very large numbers in an efficient manner.
-// 687. Write a method that uses BigDecimal to adjust prices in a store's database by applying a percentage increase or decrease with exact precision.
-// 688. Use BigDecimal to perform risk assessments in insurance by calculating the probability of events and potential payouts with high precision.
-// 689. Develop a program that uses BigInteger to manage and analyze large numbers of transactions in a blockchain environment.
-// 690. Write a Java program that uses BigDecimal to calculate the exact result of financial formulas, such as the Black-Scholes model, used in stock option pricing.
-// 691. Create a method that takes a BigInteger as input and returns a list of all prime numbers less than that number.
-// 692. Use BigDecimal to simulate and calculate the outcomes of complex scientific experiments that require precise measurement and analysis.
-// 693. Develop a Java program that uses BigInteger to calculate the exact area of geometric shapes defined by coordinates in a large grid.
-// 694. Write a method that uses BigDecimal to calculate and return the monthly depreciation of an asset over a specified period using different methods of depreciation.
-// 695. Use BigInteger to develop an application that can encrypt and decrypt large numbers using advanced cryptographic techniques.
-// 696. Create a program that uses BigDecimal to accurately calculate and compare the cost-effectiveness of different energy sources in a power generation company.
 
 
 

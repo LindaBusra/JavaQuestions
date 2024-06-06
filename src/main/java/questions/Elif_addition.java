@@ -17,7 +17,7 @@ public class Elif_addition {
                     int sayi2 = (int) (Math.random() * 9999) + 1;
                     int sonuc = sayi1 + sayi2;
 
-                    System.out.println("Elifcim Soru-" + i + " : " + sayi1 + " + " + sayi2 + " = ?");
+                    System.out.println("Ada Elif icin Soru-" + i + " : " + sayi1 + " + " + sayi2 + " = ?");
 
                     while (true) {
                         try {

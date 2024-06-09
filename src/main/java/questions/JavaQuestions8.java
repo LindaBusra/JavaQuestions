@@ -1,7 +1,10 @@
 package questions;
 
+import java.sql.SQLOutput;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Scanner;
 
 public class JavaQuestions8 {
     public static void main(String[] args) {
@@ -83,8 +86,37 @@ public class JavaQuestions8 {
 
 // 51. Write a Java program that allows a user to enter their favorite movies and stores them in a HashMap with the user's rating for each movie.
 
+        HashMap<String,Double> movies = new HashMap<>();
+        boolean flag = true;
+        int count = 1;
 
+        while(flag){
+            System.out.println("Enter your favorite "+ count+". movie please: ");
+            count++;
+            Scanner scanner = new Scanner(System.in);
+            String movie1 = scanner.nextLine();
+            System.out.println("Enter your rating from 0-10 for this movie please: ");
+            Double range1 = scanner.nextDouble();
+            movies.put(movie1, range1);
+            boolean yesNo = false;
+            do{
+                System.out.println("If you continue enter: \"Yes\",  If you wil stop enter \"No\"");
+                String continueOrStop = scanner.next();
+                if (continueOrStop.toLowerCase().equals("yes")){
+                    flag = true;
+                    yesNo = false;
+                } else if (continueOrStop.toLowerCase().equals("no")) {
+                    flag = false;
+                    break;
+                } else {
+                    System.out.println("Please enter Yes or No");
+                    yesNo = true;
+                }
+            } while(yesNo);
 
+        }
+
+        System.out.println("Your favorite movies and their ranges: " + movies);
 
     }
 

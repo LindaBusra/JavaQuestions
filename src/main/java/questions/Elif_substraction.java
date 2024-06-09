@@ -23,20 +23,20 @@ public class Elif_substraction {
             }
 
             int sonuc = sayi1 - sayi2;
-            System.out.println("Ada Elif icin soru-" + i + " : " + sayi1 + " - " + sayi2 + " = ?");
+            System.out.println("For Ada Eflif spørsmål-" + i + " : " + sayi1 + " - " + sayi2 + " = ?");
 
             while (true) {
                 try {
-                    System.out.print("Cevabin: ");
+                    System.out.print("Svaret ditt: ");
                     cevap = scanner.nextInt();
                     if (cevap == sonuc) {
-                        System.out.println("Tebrikler bildin, benim canim kizim .... ");
+                        System.out.println("Gratulerer jenta mi, det er riktig svar :) Nå kommer det en til : .... ");
                         break;
                     } else {
-                        System.out.println("Bir daha dene canim.");
+                        System.out.println("Du kan prøve igjen: ");
                     }
                 } catch (InputMismatchException e) {
-                    System.out.println("Lütfen bir sayı girer misin.");
+                    System.out.println("Det er ikke et tall. Kan du skrive tallet riktig? ");
                     scanner.next();
                 }
             }

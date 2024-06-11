@@ -41,11 +41,22 @@ public class JavaQuestions9 {
                 System.out.print(w + " ");
             }
         }
+        System.out.println();
 
 
 // 56. Write a method in Java that checks if a given string starts with the character 'S'.
+
+        System.out.println(startWithGivenCharacter("Susanne", "S"));
+        System.out.println(startWithGivenCharacter("Erik", "S"));
     }
 
+    public static boolean startWithGivenCharacter(String text, String x){
+        if(text.substring(0,1).equals(x)){
+            return true;
+        } else {
+            return false;
+        }
+    }
     public static int numberOfWords(String text){
 
         String []arr = text.split(" ");

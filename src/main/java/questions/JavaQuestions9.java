@@ -25,8 +25,18 @@ public class JavaQuestions9 {
         }
 
 // 54. Write a program that takes a string input and prints the number of words in the string.
+
+
 // 55. Initialize an integer array. Use a for loop to print all elements that are divisible by 3.
 
+        String text = "There is a lot of country in the world";
+        System.out.println("The number of word in this sentence : " + numberOfWords(text));
 
+    }
+
+    public static int numberOfWords(String text){
+
+        String []arr = text.split(" ");
+        return  arr.length;
     }
 }

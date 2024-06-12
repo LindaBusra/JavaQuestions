@@ -57,6 +57,9 @@ public class JavaQuestions9 {
         countries.put("Norway", "Oslo");
         countries.put("England", "London");
         System.out.println(countries);
+
+
+// 58. Write a Java program to print a square pattern of '*' with a side of 5 units.
     }
 
 

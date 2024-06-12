@@ -2,6 +2,7 @@ package questions;
 
 import java.text.DecimalFormat;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
 public class JavaQuestions9 {
@@ -51,6 +52,11 @@ public class JavaQuestions9 {
 
 
 // 57. Create a HashMap where you store countries as keys and their capitals as values. Print all keys and values.
+        HashMap<String, String> countries = new HashMap<>();
+        countries.put("Turkey", "Ankara");
+        countries.put("Norway", "Oslo");
+        countries.put("England", "London");
+        System.out.println(countries);
     }
 
 

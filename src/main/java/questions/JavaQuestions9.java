@@ -48,7 +48,13 @@ public class JavaQuestions9 {
 
         System.out.println(startWithGivenCharacter("Susanne", "S"));
         System.out.println(startWithGivenCharacter("Erik", "S"));
+
+
+// 57. Create a HashMap where you store countries as keys and their capitals as values. Print all keys and values.
     }
+
+
+
 
     public static boolean startWithGivenCharacter(String text, String x){
         if(text.substring(0,1).equals(x)){

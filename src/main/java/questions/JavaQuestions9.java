@@ -60,6 +60,14 @@ public class JavaQuestions9 {
 
 
 // 58. Write a Java program to print a square pattern of '*' with a side of 5 units.
+
+        int row=5;
+        for(int i=0; i<row; i++){
+            for(int j=0; j<row; j++){
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
     }
 
 

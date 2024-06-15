@@ -62,17 +62,15 @@ public class JavaQuestions_all {
 // 49. Write a program using a switch statement that prints the name of the month based on the number input (1 to 12).
 // 50. Create a two-dimensional integer array and print the sum of each row in separate lines.
 // 51. Write a Java program that allows a user to enter their favorite movies and stores them in a HashMap with the user's rating for each movie.
-
-
 // 52. Declare a float variable with a value and print it rounded to two decimal places.
 // 53. Create an ArrayList of Strings. Add some colors (as string elements) and then use a loop to print each color.
 // 54. Write a program that takes a string input and prints the number of words in the string.
 // 55. Initialize an integer array. Use a for loop to print all elements that are divisible by 3.
 // 56. Write a method in Java that checks if a given string starts with the character 'S'.
 // 57. Create a HashMap where you store countries as keys and their capitals as values. Print all keys and values.
-
-
 // 58. Write a Java program to print a square pattern of '*' with a side of 5 units.
+
+
 // 59. Declare an integer LinkedList, add elements to it and then print the first and last element.
 // 60. Create a method that takes two strings and returns a concatenated version of them.
 // 61. Initialize a boolean variable with true. Use an if statement to check its value and print "YES" if true, otherwise print "NO".

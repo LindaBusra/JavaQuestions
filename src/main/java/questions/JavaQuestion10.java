@@ -1,5 +1,6 @@
 package questions;
 
+import java.util.Arrays;
 import java.util.LinkedList;
 
 public class JavaQuestion10 {
@@ -28,12 +29,32 @@ public class JavaQuestion10 {
         }else{
             System.out.println("NO");
         }
+
+
 // 62. Write a Java program to convert an integer to binary format.
+        convertBinary(5);
+
+
 // 63. Create an array of 10 integers. Use a loop to populate it with numbers from 1 to 10.
+        int pn[] = new int[]{2,4,6,8,3,5,10,11,9,12};
+        int p = 1;
+        int index = 0;
+        for(int w: pn){
+            pn[index] = w*p;
+            p++;
+            index++;
+
+        }
+        System.out.println(Arrays.toString(pn));
 // 64. Write a method that takes an ArrayList of integers and returns the sum of its elements.
 
 
     }
+
+    public static void convertBinary(int a){
+        System.out.println("integer converted to Binary: " + Integer.toBinaryString(a));
+    }
+
 
     public static void concatenatedOfTwoString(String a, String b){
         System.out.println(a+b);

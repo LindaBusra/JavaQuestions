@@ -46,8 +46,27 @@ public class JavaQuestion10 {
 
         }
         System.out.println(Arrays.toString(pn));
-// 64. Write a method that takes an ArrayList of integers and returns the sum of its elements.
 
+
+
+// 64. Write a method that takes an ArrayList of integers and returns the sum of its elements.
+        int rsn[] = new int[]{4,8,9,12,30,15,60};
+        int sum=0;
+        for(int w: rsn){
+            sum+=w;
+        }
+
+        System.out.println("Sum of array: " + sum);
+
+
+// 65. Declare a double array and initialize it with some values. Calculate the mean (average) of the array.
+        double values[] = new double[]{4.5, 18.7, 22.8, 55.6, 79.7, 2.6};
+        double summ = 0;
+        for(double w : values){
+            summ += w;
+        }
+
+        System.out.println("average of the array: " + ((double)summ/values.length));
 
     }
 

@@ -69,15 +69,15 @@ public class JavaQuestions_all {
 // 56. Write a method in Java that checks if a given string starts with the character 'S'.
 // 57. Create a HashMap where you store countries as keys and their capitals as values. Print all keys and values.
 // 58. Write a Java program to print a square pattern of '*' with a side of 5 units.
-
-
 // 59. Declare an integer LinkedList, add elements to it and then print the first and last element.
 // 60. Create a method that takes two strings and returns a concatenated version of them.
 // 61. Initialize a boolean variable with true. Use an if statement to check its value and print "YES" if true, otherwise print "NO".
 // 62. Write a Java program to convert an integer to binary format.
 // 63. Create an array of 10 integers. Use a loop to populate it with numbers from 1 to 10.
 // 64. Write a method that takes an ArrayList of integers and returns the sum of its elements.
-// 65. Declare a double array and initialize it with some values. Find the standard deviation of these values.
+// 65. Declare a double array and initialize it with some values. Calculate the mean (average) of the array.
+
+
 // 66. Write a Java program that reverses an integer and prints the result.
 // 67. Create a string variable with a value. Write a loop that prints each character of the string on a new line.
 // 68. Initialize a List of integers with some values. Write a method that prints the product of all elements in the List.

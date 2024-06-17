@@ -76,13 +76,14 @@ public class JavaQuestions_all {
 // 63. Create an array of 10 integers. Use a loop to populate it with numbers from 1 to 10.
 // 64. Write a method that takes an ArrayList of integers and returns the sum of its elements.
 // 65. Declare a double array and initialize it with some values. Calculate the mean (average) of the array.
-
-
 // 66. Write a Java program that reverses an integer and prints the result.
 // 67. Create a string variable with a value. Write a loop that prints each character of the string on a new line.
 // 68. Initialize a List of integers with some values. Write a method that prints the product of all elements in the List.
 // 69. Write a program using nested loops that prints a triangle pattern of '#' with a height of 5.
 // 70. Create an array of booleans, 5 elements long, all initialized to false. Use a loop to change each element to true.
+
+
+
 // 71. Write a method that takes an integer n and prints the times table up to 10 for n.
 // 72. Declare a HashSet, add some elements and then print out all the elements.
 // 73. Create a switch-case statement that converts numbers 1-5 into their respective names as strings.

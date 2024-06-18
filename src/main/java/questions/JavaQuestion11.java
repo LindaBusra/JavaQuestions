@@ -1,5 +1,6 @@
 package questions;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class JavaQuestion11 {
@@ -18,7 +19,14 @@ public class JavaQuestion11 {
         }
 
 // 68. Initialize a List of integers with some values. Write a method that prints the product of all elements in the List.
+        List<Integer> integers = new ArrayList<>();
+        integers.add(2);
+        integers.add(3);
+        integers.add(5);
+        integers.add(7);
+        integers.add(11);
 
+        printProductOfList(integers);
 
 
 

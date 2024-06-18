@@ -1,5 +1,7 @@
 package questions;
 
+import java.util.List;
+
 public class JavaQuestion11 {
 
     public static void main(String[] args) {
@@ -16,6 +18,10 @@ public class JavaQuestion11 {
         }
 
 // 68. Initialize a List of integers with some values. Write a method that prints the product of all elements in the List.
+
+
+
+
 // 69. Write a program using nested loops that prints a triangle pattern of '#' with a height of 5.
 // 70. Create an array of booleans, 5 elements long, all initialized to false. Use a loop to change each element to true.
 
@@ -28,5 +34,22 @@ public class JavaQuestion11 {
             num += nums[i];
         }
         return Integer.valueOf(num);
+    }
+
+    public static void printProductOfList(List<Integer> list) {
+        if (list == null || list.isEmpty()) {
+            System.out.println("List is empty or null.");
+            return;
+        }
+
+        // Initialize product as 1
+        int product = 1;
+
+        for (int num : list) {
+            product *= num;
+        }
+
+        // Print the product
+        System.out.println("The product of all elements in the list is: " + product);
     }
 }

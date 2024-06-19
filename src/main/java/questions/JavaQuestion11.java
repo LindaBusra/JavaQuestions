@@ -53,6 +53,17 @@ public class JavaQuestion11 {
         }
         System.out.println(Arrays.toString(list));
 
+
+
+// 71. Write a method that takes an integer n and prints the times table up to 10 for n.
+        timeTable(5);
+
+    }
+
+    public static void timeTable(int n){
+        for(int i=1; i<11; i++){
+            System.out.println(n + " x " + i + " = " + (n*i));
+        }
     }
     public static int reverseInteger(int a){
         String num = "";

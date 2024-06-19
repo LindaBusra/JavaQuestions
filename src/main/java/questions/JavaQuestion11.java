@@ -1,6 +1,7 @@
 package questions;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class JavaQuestion11 {
@@ -46,7 +47,11 @@ public class JavaQuestion11 {
         }
 
 // 70. Create an array of booleans, 5 elements long, all initialized to false. Use a loop to change each element to true.
-
+        boolean list[] =  new boolean[]{false, false, false, false, false};
+        for(int i=0; i<list.length; i++){
+            list[i] = true;
+        }
+        System.out.println(Arrays.toString(list));
 
     }
     public static int reverseInteger(int a){

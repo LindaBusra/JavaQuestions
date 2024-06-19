@@ -31,6 +31,20 @@ public class JavaQuestion11 {
 
 
 // 69. Write a program using nested loops that prints a triangle pattern of '#' with a height of 5.
+
+        int height = 5;
+        for (int i = 0; i < height; i++) {
+            // Print spaces before the '#' characters
+            for (int j = height - i - 1; j > 0; j--) {
+                System.out.print(" ");
+            }
+            // Print '#' characters
+            for (int k = 0; k <= 2 * i; k++) {
+                System.out.print("#");
+            }
+            System.out.println();
+        }
+
 // 70. Create an array of booleans, 5 elements long, all initialized to false. Use a loop to change each element to true.
 
 

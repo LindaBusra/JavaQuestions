@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 
-public class JavaQuestion11 {
+public class JavaQuestions11 {
 
     public static void main(String[] args) {
 

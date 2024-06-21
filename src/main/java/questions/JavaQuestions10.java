@@ -3,7 +3,7 @@ package questions;
 import java.util.Arrays;
 import java.util.LinkedList;
 
-public class JavaQuestion10 {
+public class JavaQuestions10 {
     public static void main(String[] args) {
 
 // 59. Declare an integer LinkedList, add elements to it and then print the first and last element.

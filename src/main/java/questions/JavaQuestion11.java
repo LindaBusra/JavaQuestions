@@ -2,6 +2,7 @@ package questions;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.List;
 
 public class JavaQuestion11 {
@@ -57,6 +58,20 @@ public class JavaQuestion11 {
 
 // 71. Write a method that takes an integer n and prints the times table up to 10 for n.
         timeTable(5);
+
+
+// 72. Declare a HashSet, add some elements and then print out all the elements.
+        HashMap<String, Integer> mylist = new HashMap<>();
+        mylist.put("Ole", 12);
+        mylist.put("Jack", 45);
+        mylist.put("Jeny", 40);
+        mylist.put("Mike", 20);
+        mylist.put("Tom", 15);
+        System.out.println(mylist);
+
+
+
+
 
     }
 

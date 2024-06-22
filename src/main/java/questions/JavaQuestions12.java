@@ -9,5 +9,20 @@ public class JavaQuestions12 {
 
 
 // 74. Write a Java program that prints the first 10 numbers of the Fibonacci series using iteration.
+
+        int n = 10;  // Number of terms to display
+        int firstTerm = 0;
+        int secondTerm = 1;
+
+        System.out.println("First " + n + " terms of the Fibonacci series:");
+
+        for (int i = 1; i <= n; ++i) {
+            System.out.print(firstTerm + " ");
+
+            // Compute the next term
+            int nextTerm = firstTerm + secondTerm;
+            firstTerm = secondTerm;
+            secondTerm = nextTerm;
+        }
     }
 }

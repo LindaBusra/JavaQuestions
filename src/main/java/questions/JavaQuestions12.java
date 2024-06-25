@@ -44,6 +44,23 @@ public class JavaQuestions12 {
         }
 
 // 75. Initialize a two-dimensional array of integers, fill it with numbers, and print the largest number found in the array.
+        int[][] arr = new int[4][];
+        arr[0] = new int[]{10, 20, 30};
+        arr[1] = new int[]{40, 50, 60, 70};
+        arr[2] = new int[]{80, 90};
+        arr[3] = new int[]{100, 110, 120, 130, 140};
+
+        int max = Integer.MIN_VALUE;
+
+        for(int i=0; i<arr.length; i++){
+            for(int j=0; j<arr[i].length; j++){
+                if(arr[i][j] > max){
+                    max = arr[i][j];
+                }
+            }
+        }
+        System.out.println("max: " + max);
+
 
 
     }

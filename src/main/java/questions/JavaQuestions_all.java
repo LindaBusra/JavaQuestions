@@ -83,10 +83,10 @@ public class JavaQuestions_all {
 // 70. Create an array of booleans, 5 elements long, all initialized to false. Use a loop to change each element to true.
 // 71. Write a method that takes an integer n and prints the times table up to 10 for n.
 // 72. Declare a HashSet, add some elements and then print out all the elements.
-
-
 // 73. Create a switch-case statement that converts numbers 1-5 into their respective names as strings.
 // 74. Write a Java program that prints the first 10 numbers of the Fibonacci series using iteration.
+
+
 // 75. Initialize a two-dimensional array of integers, fill it with numbers, and print the largest number found in the array.
 // 76. Create a method that takes a string and returns its reverse.
 // 77. Write a Java program that asks the user for their age and prints whether they are a minor (under 18) or an adult.

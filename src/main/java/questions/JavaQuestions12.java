@@ -63,6 +63,15 @@ public class JavaQuestions12 {
 
 
 // 76. Create a method that takes a string and returns its reverse.
+        reverseOfString("Hello");
 
+    }
+    public static void reverseOfString(String text){
+        String arr[] = text.split("");
+        String reverse = "";
+        for(int i=arr.length-1; i>=0; i--) {
+            reverse += arr[i];
+        }
+        System.out.println(reverse);
     }
 }

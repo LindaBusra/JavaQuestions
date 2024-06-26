@@ -62,6 +62,7 @@ public class JavaQuestions12 {
         System.out.println("max: " + max);
 
 
+// 76. Create a method that takes a string and returns its reverse.
 
     }
 }

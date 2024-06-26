@@ -86,9 +86,9 @@ public class JavaQuestions_all {
 // 73. Create a switch-case statement that converts numbers 1-5 into their respective names as strings.
 // 74. Write a Java program that prints the first 10 numbers of the Fibonacci series using iteration.
 // 75. Initialize a two-dimensional array of integers, fill it with numbers, and print the largest number found in the array.
-
-
 // 76. Create a method that takes a string and returns its reverse.
+
+
 // 77. Write a Java program that asks the user for their age and prints whether they are a minor (under 18) or an adult.
 // 78. Declare an array of chars and use a for-each loop to print each character.
 // 79. Create a List of doubles, add some values and then use a loop to calculate the sum of all elements.

@@ -87,13 +87,14 @@ public class JavaQuestions_all {
 // 74. Write a Java program that prints the first 10 numbers of the Fibonacci series using iteration.
 // 75. Initialize a two-dimensional array of integers, fill it with numbers, and print the largest number found in the array.
 // 76. Create a method that takes a string and returns its reverse.
-
-
 // 77. Write a Java program that asks the user for their age and prints whether they are a minor (under 18) or an adult.
 // 78. Declare an array of chars and use a for-each loop to print each character.
 // 79. Create a List of doubles, add some values and then use a loop to calculate the sum of all elements.
 // 80. Write a program that checks if a string contains another string (substring).
 // 81. Initialize an integer array with random numbers and find the second smallest number.
+
+
+
 // 82. Write a method that takes a List of integers and prints each integer to the power of itself (n^n).
 // 83. Create a Java program that calculates and prints the result of the expression (a + b * c), where a, b, and c are taken as input from the user.
 // 84. Initialize a string variable with a full sentence. Write a program that counts the number of commas in the sentence.

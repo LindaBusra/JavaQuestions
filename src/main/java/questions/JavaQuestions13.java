@@ -27,6 +27,12 @@ public class JavaQuestions13 {
 
 
 // 79. Create a List of doubles, add some values and then use a loop to calculate the sum of all elements.
+        double d[] = new double []{1.4, 5.8, 6.3, 7.5};
+        double sum = 0;
+        for(double w: d){
+            sum += w;
+        }
+        System.out.println("sum: " + sum);
 // 80. Write a program that checks if a string contains another string (substring).
 // 81. Initialize an integer array with random numbers and find the second smallest number.
 

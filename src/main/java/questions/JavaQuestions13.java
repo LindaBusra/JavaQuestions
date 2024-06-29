@@ -33,9 +33,21 @@ public class JavaQuestions13 {
             sum += w;
         }
         System.out.println("sum: " + sum);
+
+
 // 80. Write a program that checks if a string contains another string (substring).
+        System.out.println(isContains("Hello world", "world"));
+
 // 81. Initialize an integer array with random numbers and find the second smallest number.
 
 
+    }
+    public static boolean isContains(String str, String text){
+
+        if(str.contains(text)){
+            return true;
+        } else{
+            return false;
+        }
     }
 }

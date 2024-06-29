@@ -36,7 +36,9 @@ public class JavaQuestions13 {
 
 
 // 80. Write a program that checks if a string contains another string (substring).
-        System.out.println(isContains("Hello world", "world"));
+        System.out.println(isContains("Hello world!", "world"));
+
+
 
 // 81. Initialize an integer array with random numbers and find the second smallest number.
 

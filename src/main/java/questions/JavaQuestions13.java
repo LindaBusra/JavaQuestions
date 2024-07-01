@@ -1,5 +1,6 @@
 package questions;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class JavaQuestions13 {
@@ -41,6 +42,9 @@ public class JavaQuestions13 {
 
 
 // 81. Initialize an integer array with random numbers and find the second smallest number.
+        int numbers[] = new int[] {1,36, 48,5,8,7,9,12};
+        Arrays.sort(numbers);
+        System.out.println(Arrays.toString(numbers));
 
 
     }

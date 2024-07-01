@@ -45,7 +45,7 @@ public class JavaQuestions13 {
         int numbers[] = new int[] {1,36, 48,5,8,7,9,12};
         Arrays.sort(numbers);
         System.out.println(Arrays.toString(numbers));
-        System.out.println(numbers[1]);
+        System.out.println("the second smallest number: " + numbers[1]);
 
 
     }

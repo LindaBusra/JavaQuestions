@@ -48,6 +48,21 @@ public class JavaQuestions13 {
         System.out.println("the second smallest number: " + numbers[1]);
 
 
+// 82. Write a method that takes a List of integers and prints each integer to the power of itself (n^n).
+// 83. Create a Java program that calculates and prints the result of the expression (a + b * c), where a, b, and c are taken as input from the user.
+// 84. Initialize a string variable with a full sentence. Write a program that counts the number of commas in the sentence.
+
+
+
+
+
+
+
+
+
+
+
+
     }
     public static boolean isContains(String str, String text){
 

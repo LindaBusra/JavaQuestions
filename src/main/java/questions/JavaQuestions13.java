@@ -50,7 +50,19 @@ public class JavaQuestions13 {
 
 // 82. Write a method that takes a List of integers and prints each integer to the power of itself (n^n).
         System.out.println(powerOfInteger(4));
+
+
+
 // 83. Create a Java program that calculates and prints the result of the expression (a + b * c), where a, b, and c are taken as input from the user.
+
+        System.out.println("enter three number please:");
+        System.out.println("number1:");
+        int num1 = scanner.nextInt();
+        System.out.println("number1:");
+        int num2 = scanner.nextInt();
+        System.out.println("number1:");
+        int num3 = scanner.nextInt();
+        System.out.println("The result of the expression is: " + (num1 + (num2*num3)));
 // 84. Initialize a string variable with a full sentence. Write a program that counts the number of commas in the sentence.
 
 

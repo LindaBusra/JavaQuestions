@@ -63,7 +63,9 @@ public class JavaQuestions13 {
         System.out.println("number1:");
         int num3 = scanner.nextInt();
         System.out.println("The result of the expression is: " + (num1 + (num2*num3)));
+
 // 84. Initialize a string variable with a full sentence. Write a program that counts the number of commas in the sentence.
+        String str = "Initialize a string variable with a full sentence";
 
 
 

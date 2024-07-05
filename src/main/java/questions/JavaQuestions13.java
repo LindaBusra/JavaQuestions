@@ -73,7 +73,7 @@ public class JavaQuestions13 {
                 count++;
             }
         }
-        System.out.println(count);
+        System.out.println("the number of commas: " + count);
 
 
 

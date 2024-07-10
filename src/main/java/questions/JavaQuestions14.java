@@ -1,5 +1,8 @@
 package questions;
 
+import java.util.Arrays;
+import java.util.Collections;
+
 public class JavaQuestions14 {
     public static void main(String[] args) {
 
@@ -14,8 +17,17 @@ public class JavaQuestions14 {
         }
 
 
-
 // 87. Create an array of Strings and use a method to sort it in descending order.
+        String str[] =  new String[]{"Ole", "Jeny", "Mike", "John"};
+
+        //ascending order
+        Arrays.sort(str);
+        System.out.println("in ascending order: " + Arrays.toString(str));
+
+        //descending order
+        Arrays.sort(str, Collections.reverseOrder());
+        System.out.println("in descending order: " + Arrays.toString(str));
+
 // 88. Initialize a variable of type long with a value
 
 

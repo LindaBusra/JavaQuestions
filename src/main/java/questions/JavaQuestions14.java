@@ -9,6 +9,12 @@ public class JavaQuestions14 {
 
 
 // 86. Write a Java program that prints the characters from A to Z using a loop.
+        for(char x='A'; x<='Z'; x++){
+            System.out.print(x + " ");
+        }
+
+
+
 // 87. Create an array of Strings and use a method to sort it in descending order.
 // 88. Initialize a variable of type long with a value
 

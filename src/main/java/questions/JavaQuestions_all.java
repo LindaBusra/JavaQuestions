@@ -99,11 +99,11 @@ public class JavaQuestions_all {
 // 86. Write a Java program that prints the characters from A to Z using a loop.
 // 87. Create an array of Strings and use a method to sort it in descending order.
 // 88. Initialize a variable of type long with a value
-
-
-
 // 89. Write a Java program to replace all occurrences of 'day' with 'night' in a given string.
 // 90. Create a method that takes a string and replaces all spaces with underscores.
+
+
+
 // 91. Initialize a string "Java is fun" and use the replace method to change "fun" to "powerful".
 // 92. Write a Java program to replace vowels in a string with asterisks '*'.
 // 93. Create a method that replaces the last character of a string with the character 'z'.

@@ -28,7 +28,10 @@ public class JavaQuestions14 {
         Arrays.sort(str, Collections.reverseOrder());
         System.out.println("in descending order: " + Arrays.toString(str));
 
+
 // 88. Initialize a variable of type long with a value
+        long l = 1245879654123L;
+        System.out.println(l);
 
 
     }

@@ -45,7 +45,7 @@ public class JavaQuestions14 {
 
 // 90. Create a method that takes a string and replaces all spaces with underscores.
 
-        replaceWithUnderscores();
+        replaceWithUnderscores("Create a method that takes a string and replaces all spaces with underscores");
     }
 
 

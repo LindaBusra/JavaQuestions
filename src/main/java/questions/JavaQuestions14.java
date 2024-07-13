@@ -40,8 +40,18 @@ public class JavaQuestions14 {
         String txt = "There is a lot of day, days which have a lot of miracles.";
         txt = txt.replaceAll("day", "night");
         System.out.println(txt);
+
+
+
 // 90. Create a method that takes a string and replaces all spaces with underscores.
 
+        replaceWithUnderscores();
+    }
+
+
+    private static void replaceWithUnderscores(String str){
+        str = str.replaceAll(" ", "_");
+        System.out.println(str);
     }
     private static boolean isContains(int [] arr, int x){
 

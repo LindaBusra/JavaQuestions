@@ -6,6 +6,7 @@ public class JavaQuestions15 {
 
 
 // 91. Initialize a string "Java is fun" and use the replace method to change "fun" to "powerful".
+        String str = "Java is fun";
 // 92. Write a Java program to replace vowels in a string with asterisks '*'.
 // 93. Create a method that replaces the last character of a string with the character 'z'.
 // 94. Write a Java program that asks the user for a sentence and a word to replace, and a word with which to replace it, then performs the replacement.

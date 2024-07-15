@@ -101,15 +101,15 @@ public class JavaQuestions_all {
 // 88. Initialize a variable of type long with a value
 // 89. Write a Java program to replace all occurrences of 'day' with 'night' in a given string.
 // 90. Create a method that takes a string and replaces all spaces with underscores.
-
-
-
 // 91. Initialize a string "Java is fun" and use the replace method to change "fun" to "powerful".
 // 92. Write a Java program to replace vowels in a string with asterisks '*'.
 // 93. Create a method that replaces the last character of a string with the character 'z'.
 // 94. Write a Java program that asks the user for a sentence and a word to replace, and a word with which to replace it, then performs the replacement.
 // 95. Initialize a string "2024-05-07" and replace the hyphens with slashes '/'.
 // 96. Write a method to replace the first three letters of a string with "XYZ".
+
+
+
 // 97. Create a string "Error 404: Not Found". Use replace to change "404" to "500".
 // 98. Write a program that replaces all occurrences of the word "error" with "warning" in a log message.
 

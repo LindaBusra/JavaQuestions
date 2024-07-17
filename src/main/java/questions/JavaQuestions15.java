@@ -26,6 +26,11 @@ public class JavaQuestions15 {
         replaceWordWithAnotherWord();
 
 // 95. Initialize a string "2024-05-07" and replace the hyphens with slashes '/'.
+        String date = "2024-05-07";
+        date = date.replaceAll("-", "/");
+        System.out.println(date);
+
+
 // 96. Write a method to replace the first three letters of a string with "XYZ".
 
 

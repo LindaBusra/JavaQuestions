@@ -44,7 +44,7 @@ public class JavaQuestions15 {
         String word = scanner.nextLine();
         System.out.println("Enter your word do you want to replace with");
         String word2 = scanner.nextLine();
-        str = str.replaceAll("word", "word2");
+        str = str.replaceAll(word, word2);
         System.out.println(str);
 
     }

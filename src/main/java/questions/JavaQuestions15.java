@@ -36,6 +36,12 @@ public class JavaQuestions15 {
 
     }
 
+    private static  void replaceFirstThreeLetters(String x){
+        String newTekst =  "XYZ" +  x.substring(3);
+        System.out.println(newTekst);
+    }
+
+
     public static void replaceVowels(String str, String x){
         str = str.replaceAll("[aeiouAEIOU]", "x");
         System.out.println(str);

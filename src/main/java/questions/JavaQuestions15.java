@@ -32,7 +32,7 @@ public class JavaQuestions15 {
 
 
 // 96. Write a method to replace the first three letters of a string with "XYZ".
-
+        replaceFirstThreeLetters("it is a new day today");
 
     }
 

@@ -107,15 +107,14 @@ public class JavaQuestions_all {
 // 94. Write a Java program that asks the user for a sentence and a word to replace, and a word with which to replace it, then performs the replacement.
 // 95. Initialize a string "2024-05-07" and replace the hyphens with slashes '/'.
 // 96. Write a method to replace the first three letters of a string with "XYZ".
-
-
-
 // 97. Create a string "Error 404: Not Found". Use replace to change "404" to "500".
 // 98. Write a program that replaces all occurrences of the word "error" with "warning" in a log message.
-
 // 99. Write a Java program to calculate the number of days between two dates.
 // 100. Create a method that prints the name of the day (like Monday, Tuesday, etc.) for a given date.
 // 101. Write a program that adds 30 days to the current date and prints the resulting date.
+
+
+
 // 102. Initialize a LocalDate object for your birthday and calculate how many days old you are today.
 // 103. Write a method that takes two dates and returns whether the first is before the second.
 // 104. Create a Java program that prints the current month in the format "MM" (e.g., "05" for May).

@@ -24,7 +24,7 @@ public class JavaQuestions16 {
 
 
 // 100. Create a method that prints the name of the day (like Monday, Tuesday, etc.) for a given date.
-        LocalDate date = LocalDate.of(2023, 04, 05);
+        LocalDate date = LocalDate.of(2024, 07, 22);
         System.out.println(date.getDayOfWeek());
 // 101. Write a program that adds 30 days to the current date and prints the resulting date.
 

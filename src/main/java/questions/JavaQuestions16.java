@@ -26,9 +26,14 @@ public class JavaQuestions16 {
 // 100. Create a method that prints the name of the day (like Monday, Tuesday, etc.) for a given date.
         LocalDate date = LocalDate.of(2024, 07, 22);
         System.out.println(date.getDayOfWeek());
+
+
 // 101. Write a program that adds 30 days to the current date and prints the resulting date.
+        add30Days(LocalDate.of(2024,07,23));
 
-
+    }
+    private  static void add30Days(LocalDate date){
+        System.out.println(date.plusDays(30));
     }
     private static void replaceWord(String str){
         str = str.toLowerCase().replaceAll("error", "warning");

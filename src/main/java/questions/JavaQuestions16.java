@@ -34,6 +34,11 @@ public class JavaQuestions16 {
 
 
 // 102. Initialize a LocalDate object for your birthday and calculate how many days old you are today.
+        LocalDate birthday = LocalDate.of(1975,12,28);
+        LocalDate today = LocalDate.of(2024, 07 ,24);
+        System.out.println(numberOfDays(today, birthday));
+
+
 // 103. Write a method that takes two dates and returns whether the first is before the second.
 // 104. Create a Java program that prints the current month in the format "MM" (e.g., "05" for May).
 

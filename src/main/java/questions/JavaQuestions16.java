@@ -31,6 +31,17 @@ public class JavaQuestions16 {
 // 101. Write a program that adds 30 days to the current date and prints the resulting date.
         add30Days(LocalDate.of(2024,07,23));
 
+
+
+// 102. Initialize a LocalDate object for your birthday and calculate how many days old you are today.
+// 103. Write a method that takes two dates and returns whether the first is before the second.
+// 104. Create a Java program that prints the current month in the format "MM" (e.g., "05" for May).
+
+
+
+
+
+
     }
     private  static void add30Days(LocalDate date){
         System.out.println(date.plusDays(30));

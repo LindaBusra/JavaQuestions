@@ -1,7 +1,10 @@
 package questions;
 
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.time.LocalDate;
 import java.time.temporal.ChronoUnit;
+import java.util.Date;
 
 public class JavaQuestions16 {
     public static void main(String[] args) {
@@ -40,6 +43,13 @@ public class JavaQuestions16 {
 
 
 // 103. Write a method that takes two dates and returns whether the first is before the second.
+        String date1 = "2023-01-01";
+        String date2 = "2023-01-02";
+        String dateFormat = "yyyy-MM-dd";
+
+        boolean result = isBefore(date1, date2, dateFormat);
+        System.out.println(result);  // Output: true
+
 // 104. Create a Java program that prints the current month in the format "MM" (e.g., "05" for May).
 
 
@@ -48,6 +58,20 @@ public class JavaQuestions16 {
 
 
     }
+
+    public static boolean isBefore(String date1, String date2, String dateFormat) {
+        SimpleDateFormat sdf = new SimpleDateFormat(dateFormat);
+        try {
+            Date d1 = sdf.parse(date1);
+            Date d2 = sdf.parse(date2);
+            return d1.before(d2);
+        } catch (ParseException e) {
+            System.out.println("Error parsing dates: " + e.getMessage());
+            return false;
+        }
+    }
+
+
     private  static void add30Days(LocalDate date){
         System.out.println(date.plusDays(30));
     }

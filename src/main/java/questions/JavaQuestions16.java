@@ -55,7 +55,7 @@ public class JavaQuestions16 {
 // 104. Create a Java program that prints the current month in the format "MM" (e.g., "05" for May).
         LocalDate currentDate = LocalDate.now();
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("MM");
-
+        System.out.println(currentDate.format(formatter));
 
 
 

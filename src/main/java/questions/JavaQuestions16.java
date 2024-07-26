@@ -1,8 +1,10 @@
 package questions;
 
+import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 import java.time.temporal.ChronoUnit;
 import java.util.Date;
 
@@ -51,6 +53,9 @@ public class JavaQuestions16 {
         System.out.println(result);  // Output: true
 
 // 104. Create a Java program that prints the current month in the format "MM" (e.g., "05" for May).
+        LocalDate currentDate = LocalDate.now();
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("MM");
+
 
 
 

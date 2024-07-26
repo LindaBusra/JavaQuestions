@@ -112,12 +112,12 @@ public class JavaQuestions_all {
 // 99. Write a Java program to calculate the number of days between two dates.
 // 100. Create a method that prints the name of the day (like Monday, Tuesday, etc.) for a given date.
 // 101. Write a program that adds 30 days to the current date and prints the resulting date.
-
-
-
 // 102. Initialize a LocalDate object for your birthday and calculate how many days old you are today.
 // 103. Write a method that takes two dates and returns whether the first is before the second.
 // 104. Create a Java program that prints the current month in the format "MM" (e.g., "05" for May).
+
+
+
 // 105. Write a program that subtracts 100 days from the current date and prints the date in the format "YYYY-MM-DD".
 // 106. Create a method that takes a year and prints if it is a leap year or not.
 // 107. Write a Java program to print the date of the previous Wednesday from today.

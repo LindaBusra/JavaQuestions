@@ -58,7 +58,8 @@ public class JavaQuestions16 {
         System.out.println(currentDate.format(formatter));
 
 
-
+// 105. Write a program that subtracts 100 days from the current date and prints the date in the format "YYYY-MM-DD".
+// 106. Create a method that takes a year and prints if it is a leap year or not.
 
 
 

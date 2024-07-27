@@ -69,6 +69,7 @@ public class JavaQuestions16 {
        LocalDate date = LocalDate.now();
        LocalDate newDate = date.minusDays(100);
        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("YYYY-MM-DD");
+        System.out.println(newDate.format(formatter));
 
 
     }

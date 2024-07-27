@@ -65,6 +65,14 @@ public class JavaQuestions16 {
 
     }
 
+    public static void changeDate(){
+       LocalDate date = LocalDate.now();
+       LocalDate newDate = date.minusDays(100);
+       DateTimeFormatter formatter = DateTimeFormatter.ofPattern("YYYY-MM-DD");
+
+
+    }
+
     public static boolean isBefore(String date1, String date2, String dateFormat) {
         SimpleDateFormat sdf = new SimpleDateFormat(dateFormat);
         try {

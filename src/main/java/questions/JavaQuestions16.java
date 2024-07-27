@@ -63,10 +63,20 @@ public class JavaQuestions16 {
 
 // 106. Create a method that takes a year and prints if it is a leap year or not.
 
-
+        isLeap(2020);  // Should print: It is a leap year.
+        isLeap(1900);  // Should print: It is not a leap year.
+        isLeap(2000);  // Should print: It is a leap year.
+        isLeap(2021);  // Should print: It is not a leap year.
 
     }
 
+    public static void isLeap(int year){
+        if(year%400==0 ||  (year%4==0 && year%100!=0)){
+            System.out.println("it is leap year");
+        } else {
+            System.out.println("It is not leap year");
+        }
+    }
     public static void changeDate(){
        LocalDate date = LocalDate.now();
        LocalDate newDate = date.minusDays(100);

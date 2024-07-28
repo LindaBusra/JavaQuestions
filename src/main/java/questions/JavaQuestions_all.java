@@ -115,11 +115,9 @@ public class JavaQuestions_all {
 // 102. Initialize a LocalDate object for your birthday and calculate how many days old you are today.
 // 103. Write a method that takes two dates and returns whether the first is before the second.
 // 104. Create a Java program that prints the current month in the format "MM" (e.g., "05" for May).
-
-
-
 // 105. Write a program that subtracts 100 days from the current date and prints the date in the format "YYYY-MM-DD".
 // 106. Create a method that takes a year and prints if it is a leap year or not.
+
 // 107. Write a Java program to print the date of the previous Wednesday from today.
 // 108. Initialize a LocalDateTime object and convert it to a string in the format "YYYY-MM-DD HH:MM".
 
@@ -128,6 +126,10 @@ public class JavaQuestions_all {
 // 111. Develop a method that takes a date and an integer N and returns the date N days after.
 // 112. Create a Java program that calculates the number of weekdays between two dates.
 // 113. Write a method that prints all the Thursdays of the current month.
+
+
+
+
 // 114. Initialize a date for New Year's Day of the current year. Calculate how many days have passed since then.
 // 115. Write a Java program that determines if today's date is in a leap year.
 // 116. Develop a program that converts a string date "MM/DD/YYYY" to "YYYYMMDD".

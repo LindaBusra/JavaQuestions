@@ -3,6 +3,7 @@ package questions;
 import java.text.DateFormat;
 import java.time.DayOfWeek;
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
 public class JavaQuestions17 {
@@ -21,7 +22,9 @@ public class JavaQuestions17 {
         System.out.println("Previous Wednesday was: " + previousWednesday);
 
 // 108. Initialize a LocalDateTime object and convert it to a string in the format "YYYY-MM-DD HH:MM".
-        LocalDate now = LocalDate.now();
+        LocalDateTime now = LocalDateTime.now();
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("YYYY-MM-DD HH:MM");
+        System.out.println(now.format(formatter));
 
     }
 

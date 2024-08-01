@@ -1,7 +1,9 @@
 package questions;
 
+import java.text.DateFormat;
 import java.time.DayOfWeek;
 import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 
 public class JavaQuestions17 {
     public static void main(String[] args) {
@@ -17,6 +19,10 @@ public class JavaQuestions17 {
 
         System.out.println("Today is: " + today);
         System.out.println("Previous Wednesday was: " + previousWednesday);
+
+// 108. Initialize a LocalDateTime object and convert it to a string in the format "YYYY-MM-DD HH:MM".
+        LocalDate now = LocalDate.now();
+
     }
 
 

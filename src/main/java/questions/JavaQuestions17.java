@@ -26,17 +26,23 @@ public class JavaQuestions17 {
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("YYYY-MM-DD HH:MM");
         System.out.println(now.format(formatter));
 
+
+// 109. Create a method to convert a string date from the format "YYYY-MM-DD" to "DD-MM-YYYY".
+        String inputDate = "2023-08-01";
+        String convertedDate = convertDateFormat(inputDate);
+        System.out.println("Converted Date: " + convertedDate);
     }
 
 
 
+    public static String convertDateFormat(String dateString) {
+        DateTimeFormatter inputFormatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
+        LocalDate date = LocalDate.parse(dateString, inputFormatter);
+        DateTimeFormatter outputFormatter = DateTimeFormatter.ofPattern("dd-MM-yyyy");
+        return date.format(outputFormatter);
+    }
 
 
-
-
-// 108. Initialize a LocalDateTime object and convert it to a string in the format "YYYY-MM-DD HH:MM".
-
-// 109. Create a method to convert a string date from the format "YYYY-MM-DD" to "DD-MM-YYYY".
 // 110. Write a Java program to find the day of the week for the first day of the current year.
 // 111. Develop a method that takes a date and an integer N and returns the date N days after.
 // 112. Create a Java program that calculates the number of weekdays between two dates.

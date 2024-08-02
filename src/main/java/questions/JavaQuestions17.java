@@ -39,6 +39,9 @@ public class JavaQuestions17 {
         DayOfWeek dayOfWeek = firstDayOfYear.getDayOfWeek();
         System.out.println(dayOfWeek);
 
+
+// 111. Develop a method that takes a date and an integer N and returns the date N days after.
+
     }
 
 

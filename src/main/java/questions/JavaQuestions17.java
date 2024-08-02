@@ -41,13 +41,13 @@ public class JavaQuestions17 {
 
 
 // 111. Develop a method that takes a date and an integer N and returns the date N days after.
-
-
-
+        LocalDate initialDate = LocalDate.of(2024, 5, 1); // Set a specific date
+        int daysToAdd = 10; // Number of days to add
+        LocalDate newDate = addDaysToDate(initialDate, daysToAdd);
+        System.out.println("New date after adding " + daysToAdd + " days: " + newDate);
     }
 
     public static LocalDate addDaysToDate(LocalDate date, int daysToAdd) {
-        // Add the specified number of days to the date and return the new date
         return date.plusDays(daysToAdd);
     }
 

@@ -42,9 +42,14 @@ public class JavaQuestions17 {
 
 // 111. Develop a method that takes a date and an integer N and returns the date N days after.
 
+
+
     }
 
-
+    public static LocalDate addDaysToDate(LocalDate date, int daysToAdd) {
+        // Add the specified number of days to the date and return the new date
+        return date.plusDays(daysToAdd);
+    }
 
     public static String convertDateFormat(String dateString) {
         DateTimeFormatter inputFormatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");

@@ -35,6 +35,7 @@ public class JavaQuestions17 {
 
 // 110. Write a Java program to find the day of the week for the first day of the current year.
         int currentYear = LocalDate.now().getYear();
+        LocalDate firstDayOfYear = LocalDate.of(currentYear,1,1);
 
     }
 

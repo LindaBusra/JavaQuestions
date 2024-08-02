@@ -31,6 +31,11 @@ public class JavaQuestions17 {
         String inputDate = "2023-08-01";
         String convertedDate = convertDateFormat(inputDate);
         System.out.println("Converted Date: " + convertedDate);
+
+
+// 110. Write a Java program to find the day of the week for the first day of the current year.
+        int currentYear = LocalDate.now().getYear();
+
     }
 
 
@@ -43,7 +48,7 @@ public class JavaQuestions17 {
     }
 
 
-// 110. Write a Java program to find the day of the week for the first day of the current year.
+
 // 111. Develop a method that takes a date and an integer N and returns the date N days after.
 // 112. Create a Java program that calculates the number of weekdays between two dates.
 // 113. Write a method that prints all the Thursdays of the current month.

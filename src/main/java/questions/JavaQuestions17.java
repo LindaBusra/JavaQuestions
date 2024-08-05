@@ -47,7 +47,7 @@ public class JavaQuestions17 {
         System.out.println("New date after adding " + daysToAdd + " days: " + newDate);
 
 
-// 111. Develop a method that takes a date and an integer N and returns the date N days after.
+// 112. Create a Java program that calculates the number of weekdays between two dates.
 
     }
 

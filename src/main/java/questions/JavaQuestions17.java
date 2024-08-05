@@ -48,7 +48,32 @@ public class JavaQuestions17 {
 
 
 // 112. Create a Java program that calculates the number of weekdays between two dates.
+        LocalDate date1 = LocalDate.of(2024,8,30);
+        LocalDate date2 = LocalDate.of(2024,8,1);
+        long dates = countWeekdays(date1, date2);
+        System.out.println(dates);
+    }
 
+    public static long countWeekdays(LocalDate startDate, LocalDate endDate) {
+        // Ensure the start date is before the end date
+        if (startDate.isAfter(endDate)) {
+            LocalDate temp = startDate;
+            startDate = endDate;
+            endDate = temp;
+        }
+
+        long weekdayCount = 0;
+        LocalDate date = startDate;
+
+        while (!date.isAfter(endDate)) {
+            int dayOfWeek = date.getDayOfWeek().getValue();
+            if (dayOfWeek >= 1 && dayOfWeek <= 5) {  // Monday (1) to Friday (5)
+                weekdayCount++;
+            }
+            date = date.plusDays(1);  // Increment the date by one day
+        }
+
+        return weekdayCount;
     }
 
     public static LocalDate addDaysToDate(LocalDate date, int daysToAdd) {

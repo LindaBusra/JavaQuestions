@@ -45,6 +45,10 @@ public class JavaQuestions17 {
         int daysToAdd = 10; // Number of days to add
         LocalDate newDate = addDaysToDate(initialDate, daysToAdd);
         System.out.println("New date after adding " + daysToAdd + " days: " + newDate);
+
+
+// 111. Develop a method that takes a date and an integer N and returns the date N days after.
+
     }
 
     public static LocalDate addDaysToDate(LocalDate date, int daysToAdd) {
@@ -60,7 +64,7 @@ public class JavaQuestions17 {
 
 
 
-// 111. Develop a method that takes a date and an integer N and returns the date N days after.
+
 // 112. Create a Java program that calculates the number of weekdays between two dates.
 // 113. Write a method that prints all the Thursdays of the current month.
     }

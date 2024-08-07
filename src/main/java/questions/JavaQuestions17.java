@@ -64,7 +64,7 @@ public class JavaQuestions17 {
         LocalDate today = LocalDate.now();
         YearMonth yearMonth = YearMonth.from(today);
 
-        // Get the first day of the month
+        //first and last day of the month
         LocalDate firstDayOfMonth = yearMonth.atDay(1);
         LocalDate lastDayOfMonth = yearMonth.atEndOfMonth();
 

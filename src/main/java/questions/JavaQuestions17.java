@@ -56,7 +56,11 @@ public class JavaQuestions17 {
 
 
 // 113. Write a method that prints all the Thursdays of the current month.
+        int count = 0;
+        LocalDate currentday = LocalDate.now();
+        while(currentday.getDayOfMonth()){
 
+        }
     }
 
     public static long countWeekdays(LocalDate startDate, LocalDate endDate) {

@@ -52,6 +52,11 @@ public class JavaQuestions17 {
         LocalDate date2 = LocalDate.of(2024,8,1);
         long dates = countWeekdays(date1, date2);
         System.out.println(dates);
+
+
+
+// 113. Write a method that prints all the Thursdays of the current month.
+
     }
 
     public static long countWeekdays(LocalDate startDate, LocalDate endDate) {
@@ -90,7 +95,7 @@ public class JavaQuestions17 {
 
 
 
-// 112. Create a Java program that calculates the number of weekdays between two dates.
-// 113. Write a method that prints all the Thursdays of the current month.
+
+
     }
 

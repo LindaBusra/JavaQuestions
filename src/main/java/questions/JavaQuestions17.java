@@ -4,6 +4,7 @@ import java.text.DateFormat;
 import java.time.DayOfWeek;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
+import java.time.YearMonth;
 import java.time.format.DateTimeFormatter;
 
 public class JavaQuestions17 {
@@ -56,13 +57,24 @@ public class JavaQuestions17 {
 
 
 // 113. Write a method that prints all the Thursdays of the current month.
-        int count = 0;
-        LocalDate currentday = LocalDate.now();
-        while(currentday.getDayOfMonth()){
-
-        }
+        printThursdaysOfCurrentMonth();
     }
 
+    public static void printThursdaysOfCurrentMonth() {
+        LocalDate today = LocalDate.now();
+        YearMonth yearMonth = YearMonth.from(today);
+
+        // Get the first day of the month
+        LocalDate firstDayOfMonth = yearMonth.atDay(1);
+        LocalDate lastDayOfMonth = yearMonth.atEndOfMonth();
+
+        // Iterate from the first day to the last day of the month
+        for (LocalDate date = firstDayOfMonth; !date.isAfter(lastDayOfMonth); date = date.plusDays(1)) {
+            if (date.getDayOfWeek() == DayOfWeek.THURSDAY) {
+                System.out.println(date);
+            }
+        }
+    }
     public static long countWeekdays(LocalDate startDate, LocalDate endDate) {
         // Ensure the start date is before the end date
         if (startDate.isAfter(endDate)) {

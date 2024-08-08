@@ -58,6 +58,8 @@ public class JavaQuestions17 {
 
 // 113. Write a method that prints all the Thursdays of the current month.
         printThursdaysOfCurrentMonth();
+
+
     }
 
     public static void printThursdaysOfCurrentMonth() {
